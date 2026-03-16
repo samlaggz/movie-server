@@ -1,0 +1,379 @@
+/**
+ * Regional Providers Configuration
+ * 
+ * This file maps providers by region and language for auto-configuration
+ * The app can use this to download appropriate providers based on user location
+ */
+
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Provider configuration by region and language",
+    "lastUpdated": "2026-03-16"
+  },
+
+  "regions": {
+    "IN": {
+      "name": "India",
+      "primaryLanguage": "hi",
+      "languages": ["hi", "en", "ta", "te", "mr", "gu", "pa", "bn", "ml", "kn"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "world4u", "languages": ["hi", "en", "pa", "mr", "gu"], "priority": 10, "categories": ["bollywood", "hollywood", "punjabi", "marathi", "gujarati"], "description": "Best for Bollywood and regional Indian movies" },
+        { "provider": "hdhub4u", "languages": ["hi", "en", "ta", "te"], "priority": 10, "categories": ["bollywood", "south-hindi", "hollywood"], "description": "South Indian movies in Hindi dubbed" },
+        { "provider": "kmMovies", "languages": ["hi", "en"], "priority": 9, "categories": ["bollywood", "dual-audio"], "description": "Dual audio movies" },
+        { "provider": "filmyfly", "languages": ["hi", "en"], "priority": 9, "categories": ["hollywood-hindi", "web-series"], "description": "Hollywood movies in Hindi" },
+        { "provider": "moviezwap", "languages": ["te", "ta", "hi", "en"], "priority": 8, "categories": ["telugu", "tamil", "dubbed"], "description": "Telugu and Tamil movies" },
+        { "provider": "luxMovies", "languages": ["hi", "en"], "priority": 8, "categories": ["indian", "web-series"], "description": "Indian web series and movies" },
+        { "provider": "topmovies", "languages": ["hi", "en"], "priority": 7, "categories": ["indian"], "description": "Indian content" },
+        { "provider": "Joya9tv", "languages": ["hi", "en"], "priority": 7, "categories": ["indian"], "description": "Indian entertainment" },
+        { "provider": "uhd", "languages": ["hi", "en"], "priority": 8, "categories": ["4k", "dual-audio", "english"], "description": "4K dual audio movies" },
+        { "provider": "mod", "languages": ["hi", "en"], "priority": 7, "categories": ["web-series", "ott"], "description": "OTT platform content" }
+      ]
+    },
+
+    "PK": {
+      "name": "Pakistan",
+      "primaryLanguage": "ur",
+      "languages": ["ur", "hi", "en"],
+      "fallbackRegion": "IN",
+      "providers": [
+        { "provider": "world4u", "languages": ["hi", "ur", "en"], "priority": 10, "categories": ["bollywood", "hollywood", "punjabi"], "description": "Hindi/Urdu content" },
+        { "provider": "hdhub4u", "languages": ["hi", "ur", "en"], "priority": 9, "categories": ["bollywood", "hollywood"], "description": "Hindi dubbed content" },
+        { "provider": "kmMovies", "languages": ["hi", "en"], "priority": 8, "categories": ["dual-audio"], "description": "Dual audio" }
+      ]
+    },
+
+    "BD": {
+      "name": "Bangladesh",
+      "primaryLanguage": "bn",
+      "languages": ["bn", "hi", "en"],
+      "fallbackRegion": "IN",
+      "providers": [
+        { "provider": "world4u", "languages": ["hi", "bn", "en"], "priority": 9, "categories": ["bollywood", "hollywood"], "description": "Indian content popular in Bangladesh" },
+        { "provider": "hdhub4u", "languages": ["hi", "en"], "priority": 8, "categories": ["bollywood", "hollywood"], "description": "Hindi content" }
+      ]
+    },
+
+    "LK": {
+      "name": "Sri Lanka",
+      "primaryLanguage": "si",
+      "languages": ["si", "ta", "en"],
+      "fallbackRegion": "IN",
+      "providers": [
+        { "provider": "moviezwap", "languages": ["ta", "te", "en"], "priority": 9, "categories": ["tamil", "telugu"], "description": "Tamil movies" },
+        { "provider": "hdhub4u", "languages": ["hi", "en"], "priority": 7, "categories": ["bollywood", "hollywood"], "description": "Hindi content" }
+      ]
+    },
+
+    "SA": {
+      "name": "Saudi Arabia",
+      "primaryLanguage": "ar",
+      "languages": ["ar", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "autoEmbed", "languages": ["en", "ar"], "priority": 8, "categories": ["movies", "tv", "multi"], "description": "Multi-language including Arabic subs" },
+        { "provider": "showbox", "languages": ["en"], "priority": 7, "categories": ["movies", "tv", "hollywood"], "description": "English content" }
+      ]
+    },
+
+    "AE": {
+      "name": "United Arab Emirates",
+      "primaryLanguage": "ar",
+      "languages": ["ar", "en", "hi", "ur"],
+      "fallbackRegion": "SA",
+      "providers": [
+        { "provider": "world4u", "languages": ["hi", "en", "ur"], "priority": 9, "categories": ["bollywood", "hollywood"], "description": "Popular Hindi content" },
+        { "provider": "hdhub4u", "languages": ["hi", "en"], "priority": 8, "categories": ["bollywood", "hollywood"], "description": "Hindi content" },
+        { "provider": "autoEmbed", "languages": ["en", "ar"], "priority": 7, "categories": ["movies", "tv"], "description": "Multi-language" }
+      ]
+    },
+
+    "JP": {
+      "name": "Japan",
+      "primaryLanguage": "ja",
+      "languages": ["ja", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "hiAnime", "languages": ["ja", "en"], "priority": 10, "categories": ["anime"], "description": "Japanese anime" },
+        { "provider": "animetsu", "languages": ["ja", "en"], "priority": 9, "categories": ["anime"], "description": "Anime content" },
+        { "provider": "kissKh", "languages": ["ko", "ja", "en"], "priority": 7, "categories": ["asian-drama"], "description": "Asian dramas" }
+      ]
+    },
+
+    "KR": {
+      "name": "South Korea",
+      "primaryLanguage": "ko",
+      "languages": ["ko", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "kissKh", "languages": ["ko", "en"], "priority": 10, "categories": ["korean-drama", "asian"], "description": "Korean dramas and movies" },
+        { "provider": "hiAnime", "languages": ["ja", "en"], "priority": 6, "categories": ["anime"], "description": "Anime" }
+      ]
+    },
+
+    "IT": {
+      "name": "Italy",
+      "primaryLanguage": "it",
+      "languages": ["it", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "guardahd", "languages": ["it", "en"], "priority": 10, "categories": ["italian", "movies"], "description": "Italian movies and TV" }
+      ]
+    },
+
+    "TR": {
+      "name": "Turkey",
+      "primaryLanguage": "tr",
+      "languages": ["tr", "en"],
+      "fallbackRegion": "US",
+      "providers": []
+    },
+
+    "ES": {
+      "name": "Spain",
+      "primaryLanguage": "es",
+      "languages": ["es", "en"],
+      "fallbackRegion": "US",
+      "providers": []
+    },
+
+    "FR": {
+      "name": "France",
+      "primaryLanguage": "fr",
+      "languages": ["fr", "en"],
+      "fallbackRegion": "US",
+      "providers": []
+    },
+
+    "DE": {
+      "name": "Germany",
+      "primaryLanguage": "de",
+      "languages": ["de", "en"],
+      "fallbackRegion": "US",
+      "providers": []
+    },
+
+    "RU": {
+      "name": "Russia",
+      "primaryLanguage": "ru",
+      "languages": ["ru", "en"],
+      "fallbackRegion": "US",
+      "providers": []
+    },
+
+    "BR": {
+      "name": "Brazil",
+      "primaryLanguage": "pt",
+      "languages": ["pt", "en"],
+      "fallbackRegion": "US",
+      "providers": []
+    },
+
+    "US": {
+      "name": "United States",
+      "primaryLanguage": "en",
+      "languages": ["en", "es"],
+      "fallbackRegion": null,
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en", "hi"], "priority": 9, "categories": ["movies", "tv", "hollywood", "multi"], "description": "Multiple embed sources including Hindicast" },
+        { "provider": "vega", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "web-series", "4k"], "description": "Netflix/Prime content" },
+        { "provider": "drive", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "direct-download"], "description": "Direct download links" },
+        { "provider": "primewire", "languages": ["en"], "priority": 7, "categories": ["movies", "tv"], "description": "Large library" }
+      ]
+    },
+
+    "GB": {
+      "name": "United Kingdom",
+      "primaryLanguage": "en",
+      "languages": ["en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en", "hi"], "priority": 9, "categories": ["movies", "tv", "hollywood", "multi"], "description": "Multiple embed sources" },
+        { "provider": "vega", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "web-series", "4k"], "description": "Netflix/Prime content" },
+        { "provider": "drive", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "direct-download"], "description": "Direct download links" }
+      ]
+    },
+
+    "CA": {
+      "name": "Canada",
+      "primaryLanguage": "en",
+      "languages": ["en", "fr"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en", "hi"], "priority": 9, "categories": ["movies", "tv", "hollywood", "multi"], "description": "Multiple embed sources" },
+        { "provider": "vega", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "web-series", "4k"], "description": "Netflix/Prime content" },
+        { "provider": "drive", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "direct-download"], "description": "Direct download links" }
+      ]
+    },
+
+    "AU": {
+      "name": "Australia",
+      "primaryLanguage": "en",
+      "languages": ["en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en", "hi"], "priority": 9, "categories": ["movies", "tv", "hollywood", "multi"], "description": "Multiple embed sources" },
+        { "provider": "vega", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "web-series", "4k"], "description": "Netflix/Prime content" },
+        { "provider": "drive", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "direct-download"], "description": "Direct download links" }
+      ]
+    },
+
+    "MX": {
+      "name": "Mexico",
+      "primaryLanguage": "es",
+      "languages": ["es", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "English with Spanish subs available" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 8, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en"], "priority": 8, "categories": ["movies", "tv", "hollywood"], "description": "Multiple sources" }
+      ]
+    },
+
+    "SG": {
+      "name": "Singapore",
+      "primaryLanguage": "en",
+      "languages": ["en", "zh", "ms", "ta"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "moviezwap", "languages": ["ta", "te", "en"], "priority": 7, "categories": ["tamil", "telugu"], "description": "Tamil content for Indian community" },
+        { "provider": "world4u", "languages": ["hi", "en"], "priority": 6, "categories": ["bollywood", "hollywood"], "description": "Hindi content" },
+        { "provider": "vega", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "web-series", "4k"], "description": "Netflix/Prime content" }
+      ]
+    },
+
+    "MY": {
+      "name": "Malaysia",
+      "primaryLanguage": "ms",
+      "languages": ["ms", "en", "zh", "ta"],
+      "fallbackRegion": "SG",
+      "providers": [
+        { "provider": "moviezwap", "languages": ["ta", "te", "en"], "priority": 8, "categories": ["tamil", "telugu"], "description": "Tamil movies popular in Malaysia" },
+        { "provider": "world4u", "languages": ["hi", "en"], "priority": 7, "categories": ["bollywood", "hollywood"], "description": "Hindi content" },
+        { "provider": "showbox", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "English content" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 8, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" }
+      ]
+    },
+
+    "TH": {
+      "name": "Thailand",
+      "primaryLanguage": "th",
+      "languages": ["th", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "kissKh", "languages": ["th", "ko", "ja", "en"], "priority": 8, "categories": ["asian-drama"], "description": "Asian content including Thai" },
+        { "provider": "showbox", "languages": ["en"], "priority": 7, "categories": ["movies", "tv", "hollywood"], "description": "English content" }
+      ]
+    },
+
+    "PH": {
+      "name": "Philippines",
+      "primaryLanguage": "tl",
+      "languages": ["tl", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "kissKh", "languages": ["ko", "en", "tl"], "priority": 8, "categories": ["asian-drama"], "description": "Asian dramas popular in Philippines" },
+        { "provider": "showbox", "languages": ["en"], "priority": 7, "categories": ["movies", "tv", "hollywood"], "description": "English content" }
+      ]
+    },
+
+    "ID": {
+      "name": "Indonesia",
+      "primaryLanguage": "id",
+      "languages": ["id", "en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 8, "categories": ["movies", "tv", "hollywood"], "description": "English content" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 7, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" }
+      ]
+    },
+
+    "NG": {
+      "name": "Nigeria",
+      "primaryLanguage": "en",
+      "languages": ["en"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "Multiple embed sources" }
+      ]
+    },
+
+    "ZA": {
+      "name": "South Africa",
+      "primaryLanguage": "en",
+      "languages": ["en", "af"],
+      "fallbackRegion": "US",
+      "providers": [
+        { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+        { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+        { "provider": "autoEmbed", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "Multiple embed sources" }
+      ]
+    }
+  },
+
+  "fallbackProviders": [
+    { "provider": "showbox", "languages": ["en"], "priority": 10, "categories": ["movies", "tv", "hollywood"], "description": "Best overall English provider" },
+    { "provider": "flixhq", "languages": ["en"], "priority": 9, "categories": ["movies", "tv", "hollywood"], "description": "High quality streams" },
+    { "provider": "autoEmbed", "languages": ["en", "hi"], "priority": 9, "categories": ["movies", "tv", "hollywood", "multi"], "description": "Multiple embed sources" },
+    { "provider": "vega", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "web-series", "4k"], "description": "Netflix/Prime content" },
+    { "provider": "drive", "languages": ["en", "hi", "multi"], "priority": 8, "categories": ["movies", "direct-download"], "description": "Direct download links" }
+  ],
+
+  "languageMap": {
+    "en": ["English", "eng"],
+    "hi": ["Hindi", "hin"],
+    "ta": ["Tamil", "tam"],
+    "te": ["Telugu", "tel"],
+    "mr": ["Marathi", "mar"],
+    "gu": ["Gujarati", "guj"],
+    "pa": ["Punjabi", "pan"],
+    "bn": ["Bengali", "ben"],
+    "ur": ["Urdu", "urd"],
+    "kn": ["Kannada", "kan"],
+    "ml": ["Malayalam", "mal"],
+    "ar": ["Arabic", "ara"],
+    "tr": ["Turkish", "tur"],
+    "fa": ["Persian", "fas"],
+    "ja": ["Japanese", "jpn"],
+    "ko": ["Korean", "kor"],
+    "zh": ["Chinese", "chi"],
+    "th": ["Thai", "tha"],
+    "vi": ["Vietnamese", "vie"],
+    "id": ["Indonesian", "ind"],
+    "tl": ["Tagalog", "tgl"],
+    "es": ["Spanish", "spa"],
+    "fr": ["French", "fra"],
+    "de": ["German", "deu"],
+    "it": ["Italian", "ita"],
+    "pt": ["Portuguese", "por"],
+    "ru": ["Russian", "rus"],
+    "nl": ["Dutch", "nld"],
+    "pl": ["Polish", "pol"],
+    "sv": ["Swedish", "swe"],
+    "da": ["Danish", "dan"],
+    "no": ["Norwegian", "nor"],
+    "fi": ["Finnish", "fin"],
+    "uk": ["Ukrainian", "ukr"],
+    "ro": ["Romanian", "ron"],
+    "hu": ["Hungarian", "hun"],
+    "cs": ["Czech", "ces"],
+    "el": ["Greek", "ell"],
+    "he": ["Hebrew", "heb"],
+    "ms": ["Malay", "msa"],
+    "si": ["Sinhala", "sin"],
+    "af": ["Afrikaans", "afr"]
+  }
+}
