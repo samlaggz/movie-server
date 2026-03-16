@@ -3,7 +3,7 @@
  * Simple Cloudflare Tunnel
  * Usage: npm run tunnel
  * 
- * This runs: cloudflared tunnel --url http://localhost:3001
+ * This runs: cloudflared tunnel --url http://localhost:3002
  */
 
 const { spawn } = require('child_process');
@@ -18,12 +18,12 @@ const colors = {
 };
 
 console.log(`${colors.bright}\n🚀 Starting Cloudflare Tunnel...${colors.reset}\n`);
-console.log(`${colors.cyan}Running: cloudflared tunnel --url http://localhost:3001${colors.reset}\n`);
+console.log(`${colors.cyan}Running: cloudflared tunnel --url http://localhost:3002${colors.reset}\n`);
 
 const tunnel = spawn('cloudflared', [
   'tunnel',
   '--url',
-  'http://localhost:3001'
+  'http://localhost:3002'
 ], {
   stdio: 'inherit'
 });

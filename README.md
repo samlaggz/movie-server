@@ -268,7 +268,7 @@ This gives you flexibility to support both providers that need extra requests fo
      ```sh
      npm run auto
      ```
-   - This will start the development server and log a "Mobile test url" (e.g., `http://<your-local-ip>:3001`).
+   - This will start the development server and log a "Mobile test url" (e.g., `http://<your-local-ip>:3002`).
 
 2. **Configure the Vega App for Local Testing**
 
@@ -277,7 +277,7 @@ This gives you flexibility to support both providers that need extra requests fo
    - Set the following variables in class ExtensionManager:
      ```ts
      private testMode = true;
-     private baseUrlTestMode = "http://<your-local-ip>:3001"; // Use the Mobile test url from the dev server
+     private baseUrlTestMode = "http://<your-local-ip>:3002"; // Use the Mobile test url from the dev server
      ```
    - This tells the app to use your local providers for testing.
 
