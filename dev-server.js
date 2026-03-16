@@ -11,7 +11,7 @@ const os = require("os");
 class DevServer {
   constructor() {
     this.app = express();
-    this.port = 3001;
+    this.port = 3002;
     this.distDir = path.join(__dirname, "dist");
     this.currentDir = path.join(__dirname);
 
@@ -157,11 +157,11 @@ class DevServer {
       }
       if (localIp !== "localhost") break;
     }
-    
+
     // Check for tunnel config
     const tunnelConfigPath = path.join(__dirname, '.tunnel-config.json');
     const hasTunnelConfig = fs.existsSync(tunnelConfigPath);
-    
+
     this.app.listen(this.port, "0.0.0.0", () => {
       console.log(`
 ╔════════════════════════════════════════════════════════╗
