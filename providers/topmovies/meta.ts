@@ -18,9 +18,9 @@ export const getMeta = async function ({
       synopsis: $(".imdbwp__teaser").text(),
       image: $(".imdbwp__thumb").find("img").attr("src") || "",
       imdbId: $(".imdbwp__link").attr("href")?.split("/")[4] || "",
-      type: $(".thecontent").text().toLocaleLowerCase().includes("season")
+      type: ($(".thecontent").text().toLocaleLowerCase().includes("season")
         ? "series"
-        : "movie",
+        : "movie") as import("../types").ContentType,
     };
     const links: Link[] = [];
 

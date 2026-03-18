@@ -23,7 +23,7 @@ export const getStream = async function ({
         streamLinks.push({
           server: title,
           link,
-          type: link.split(".").pop() || "mkv",
+          type: (link.split(".").pop() === "mp4" ? "mp4" : link.split(".").pop() === "m3u8" ? "m3u8" : "mkv") as import("../types").StreamType,
         });
       }
     });

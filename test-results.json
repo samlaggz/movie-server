@@ -1,0 +1,3108 @@
+{
+  "summary": {
+    "total": 30,
+    "catalog": {
+      "pass": 30,
+      "fail": 0,
+      "skip": 0,
+      "warn": 0
+    },
+    "getPosts": {
+      "pass": 30,
+      "fail": 0,
+      "skip": 0,
+      "warn": 0
+    },
+    "getSearchPosts": {
+      "pass": 29,
+      "fail": 1,
+      "skip": 0,
+      "warn": 0
+    },
+    "getMeta": {
+      "pass": 19,
+      "fail": 0,
+      "skip": 8,
+      "warn": 3
+    },
+    "getEpisodes": {
+      "pass": 6,
+      "fail": 0,
+      "skip": 24,
+      "warn": 0
+    },
+    "getStream": {
+      "pass": 17,
+      "fail": 0,
+      "skip": 12,
+      "warn": 1
+    }
+  },
+  "results": [
+    {
+      "provider": "vega",
+      "displayName": "VegaMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "New",
+              "filter": ""
+            },
+            {
+              "title": "Netflix",
+              "filter": "category/web-series/netflix"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "category/web-series/amazon-prime-video"
+            },
+            {
+              "title": "4K Movies",
+              "filter": "movies-by-quality/2160p"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Action",
+              "filter": "category/movies-by-genres/action"
+            },
+            {
+              "title": "Adventure",
+              "filter": "category/movies-by-genres/adventure"
+            },
+            {
+              "title": "Animation",
+              "filter": "category/movies-by-genres/animation"
+            },
+            {
+              "title": "Biography",
+              "filter": "category/movies-by-genres/biography"
+            },
+            {
+              "title": "Comedy",
+              "filter": "category/movies-by-genres/comedy"
+            },
+            {
+              "title": "Crime",
+              "filter": "category/movies-by-genres/crime"
+            },
+            {
+              "title": "Documentary",
+              "filter": "category/movies-by-genres/documentary"
+            },
+            {
+              "title": "Drama",
+              "filter": "category/movies-by-genres/drama"
+            },
+            {
+              "title": "Family",
+              "filter": "category/movies-by-genres/family"
+            },
+            {
+              "title": "Fantasy",
+              "filter": "category/movies-by-genres/fantasy"
+            },
+            {
+              "title": "History",
+              "filter": "category/movies-by-genres/history"
+            },
+            {
+              "title": "Horror",
+              "filter": "category/movies-by-genres/horror"
+            },
+            {
+              "title": "Music",
+              "filter": "category/movies-by-genres/music"
+            },
+            {
+              "title": "Mystery",
+              "filter": "category/movies-by-genres/mystery"
+            },
+            {
+              "title": "Romance",
+              "filter": "category/movies-by-genres/romance"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "category/movies-by-genres/sci-fi"
+            },
+            {
+              "title": "Sport",
+              "filter": "category/movies-by-genres/sport"
+            },
+            {
+              "title": "Thriller",
+              "filter": "category/movies-by-genres/thriller"
+            },
+            {
+              "title": "War",
+              "filter": "category/movies-by-genres/war"
+            },
+            {
+              "title": "Western",
+              "filter": "category/movies-by-genres/western"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 20
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 18,
+        "sample": [
+          {
+            "title": "Invincible (Season 1 – 4) Complete Dual Audio {Hindi–English} AMZN WEB-Series 480p | 720p | 1080p WEB-DL",
+            "link": "https://vegamovies.cologne/download-invincible-hindi-dubbed-series/",
+            "image": "https://vegamovies.cologne/wp-content/uploads/2025/03/Invincible-Season-1-–-4-Dual.jpg"
+          },
+          {
+            "title": "Scream 7 (2026)",
+            "link": "https://vegamovies.cologne/download-scream-7-2026-english-full-movie-480p-720p-1080p-web-dl/",
+            "image": "https://vegamovies.cologne/wp-content/uploads/2026/03/Scream-7-English.jpg"
+          }
+        ],
+        "timeMs": 10624
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 10,
+        "sample": [
+          {
+            "title": "Avengers Grimm: Time Wars (2018) Dual Audio {Hindi-English} BluRay 480p [300MB] | 720p [900MB] | 1080p [2GB]",
+            "link": "https://vegamovies.cologne/download-avengers-grimm-time-wars-2018-hindi-org-english-480p-720p-1080p-bluray/",
+            "image": "https://vegamovies.cologne/wp-content/uploads/2020/12/Avengers-Grimm-Time-Wars.jpg"
+          },
+          {
+            "title": "Avengers Grimm (2015) Dual Audio {Hindi-English} BluRay 480p [300MB] | 720p [820MB] | 1080p [2GB]",
+            "link": "https://vegamovies.cologne/download-avengers-grimm-2015-hindi-org-english-480p-720p-1080p-bluray/",
+            "image": "https://vegamovies.cologne/wp-content/uploads/2020/12/Avengers-Grimm.jpg"
+          }
+        ],
+        "timeMs": 2279
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Download Invincible (Season 1 – 4) Complete Dual Audio {Hindi–English} AMZN WEB-Series 480p | 720p | 1080p WEB-DL",
+          "type": "series",
+          "imdbId": "tt6741278",
+          "image": "[present]",
+          "synopsis": "INVINCIBLE” – An Amazon Original Eight-Episodic American Adult Animated Sci-Fi Fantasy Action Advent...",
+          "linkListCount": 11,
+          "linkListSample": [
+            {
+              "title": "Season 4 [S04E03 Added] {Hindi-English} 720p WEB-DL x264 [430MB/E] ",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            },
+            {
+              "title": "Season 4 [S04E03 Added] {Hindi-English} 1080p WEB-DL x264 [1.1GB/E] ",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ]
+        },
+        "timeMs": 3761
+      },
+      "getEpisodes": {
+        "status": "PASS",
+        "count": 3,
+        "sample": [
+          {
+            "title": "Episodes 1",
+            "link": "https://vcloud.zip/wbpgbikn-egqmmb"
+          },
+          {
+            "title": "Episodes 02",
+            "link": "https://vcloud.zip/nwznplnihfzlpc2"
+          },
+          {
+            "title": "Episodes 03",
+            "link": "https://vcloud.zip/1xbhhbd4442xtxe"
+          }
+        ],
+        "timeMs": 403
+      },
+      "getStream": {
+        "status": "PASS",
+        "count": 1,
+        "sample": [
+          {
+            "server": "hubcloud",
+            "link": "https://video-downloads.googleusercontent.com/ADGPM2nGf0gjT01sNHLTN-an2Nwlau48XK",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 12403
+      }
+    },
+    {
+      "provider": "autoEmbed",
+      "displayName": "MultiStream",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Popular Movies",
+              "filter": "/top/catalog/movie/top.json"
+            },
+            {
+              "title": "Popular TV Shows",
+              "filter": "/top/catalog/series/top.json"
+            },
+            {
+              "title": "Featured Movies",
+              "filter": "/imdbRating/catalog/movie/imdbRating.json"
+            },
+            {
+              "title": "Featured TV Shows",
+              "filter": "/imdbRating/catalog/series/imdbRating.json"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 49,
+        "sample": [
+          {
+            "title": "War Machine",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt15940132.json",
+            "image": "https://images.metahub.space/poster/small/tt15940132/img"
+          },
+          {
+            "title": "Zootopia 2",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt26443597.json",
+            "image": "https://images.metahub.space/poster/small/tt26443597/img"
+          }
+        ],
+        "timeMs": 74
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 23,
+        "sample": [
+          {
+            "title": "The Avengers",
+            "link": "https://v3-cinemeta.strem.io/meta/series/tt0054518.json",
+            "image": "https://m.media-amazon.com/images/M/MV5BMDhhYWIxMzYtNTY2Zi00MTZiLWI2ZDUtYjNiNTY5YzA5MWNkXkEyXkFqcGc@._V1_SX250.jpg"
+          },
+          {
+            "title": "Young Avengers",
+            "link": "https://v3-cinemeta.strem.io/meta/series/tt40596215.json",
+            "image": "https://images.metahub.space/poster/small/tt40596215/img"
+          }
+        ],
+        "timeMs": 84
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "War Machine",
+          "type": "movie",
+          "imdbId": "tt15940132",
+          "image": "[present]",
+          "synopsis": "Follow the final recruits of a grueling special ops boot camp who encounter a deadly force from beyo...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "War Machine",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 17
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "WARN",
+        "count": 17,
+        "sample": [
+          {
+            "server": "WebStreamr | Hayduk 🌐 🇺🇸 🇮🇳 🇮🇳 🇮🇳 2160p",
+            "link": "https://hub.pizzacdn.buzz/6749dc7694615d3a55eab1cb78118aa4?token=1773783656",
+            "type": "mkv",
+            "quality": "2160",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "WebStreamr | Hayduk 🌐 🇺🇸 🇮🇳 🇮🇳 🇮🇳 2160p",
+            "link": "https://hub.pizzacdn.buzz/1318553da0549a511611b9ea94b8fe82?token=1773780065",
+            "type": "mkv",
+            "quality": "2160",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "issues": [
+          "Stream[13]: invalid quality \"802\""
+        ],
+        "timeMs": 23357
+      }
+    },
+    {
+      "provider": "drive",
+      "displayName": "MoviesDrive",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Anime",
+              "filter": "category/anime/"
+            },
+            {
+              "title": "Netflix",
+              "filter": "category/netflix/"
+            },
+            {
+              "title": "4K",
+              "filter": "category/2160p-4k/"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Action",
+              "filter": "/category/action"
+            },
+            {
+              "title": "Crime",
+              "filter": "/category/crime"
+            },
+            {
+              "title": "Comedy",
+              "filter": "/category/comedy"
+            },
+            {
+              "title": "Drama",
+              "filter": "/category/drama"
+            },
+            {
+              "title": "Horror",
+              "filter": "/category/horror"
+            },
+            {
+              "title": "Family",
+              "filter": "/category/family"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "/category/sifi"
+            },
+            {
+              "title": "Thriller",
+              "filter": "/category/triller"
+            },
+            {
+              "title": "Romance",
+              "filter": "/category/romance"
+            },
+            {
+              "title": "Fight",
+              "filter": "/category/fight"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 10
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 342
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 12
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "multi",
+      "displayName": "MultiMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Trending",
+              "filter": "/trending/"
+            },
+            {
+              "title": "Netflix",
+              "filter": "/genre/netflix/"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "/genre/amazon-prime/"
+            },
+            {
+              "title": "Disney Hotstar",
+              "filter": "/genre/disney-hotstar/"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Action",
+              "filter": "/genre/action/"
+            },
+            {
+              "title": "Adventure",
+              "filter": "/genre/adventure/"
+            },
+            {
+              "title": "Animation",
+              "filter": "/genre/animation/"
+            },
+            {
+              "title": "Comedy",
+              "filter": "/genre/comedy/"
+            },
+            {
+              "title": "Crime",
+              "filter": "/genre/crime/"
+            },
+            {
+              "title": "Drama",
+              "filter": "/genre/drama/"
+            },
+            {
+              "title": "Family",
+              "filter": "/genre/family/"
+            },
+            {
+              "title": "Fantasy",
+              "filter": "/genre/fantasy/"
+            },
+            {
+              "title": "History",
+              "filter": "/genre/history/"
+            },
+            {
+              "title": "Horror",
+              "filter": "/genre/horror/"
+            },
+            {
+              "title": "Mystery",
+              "filter": "/genre/mystery/"
+            },
+            {
+              "title": "Romance",
+              "filter": "/genre/romance/"
+            },
+            {
+              "title": "Science Fiction",
+              "filter": "/genre/science-fiction/"
+            },
+            {
+              "title": "Thriller",
+              "filter": "/genre/thriller/"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 14
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 30,
+        "sample": [
+          {
+            "title": "Dhurandhar",
+            "link": "https://multimovies.sarl/movies/dhurandhar/",
+            "image": "https://image.tmdb.org/t/p/w185/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg"
+          },
+          {
+            "title": "Stranger Things",
+            "link": "https://multimovies.sarl/tvshows/stranger-things/",
+            "image": "https://multimovies.sarl/wp-content/uploads/2025/11/cVxVGwHce6xnW8UaVUggaPXbmoE-185x278.jpg"
+          }
+        ],
+        "timeMs": 3271
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 20,
+        "sample": [
+          {
+            "title": "Scavengers Reign",
+            "link": "https://multimovies.sarl/tvshows/scavengers-reign/",
+            "image": "https://multimovies.sarl/wp-content/uploads/2025/03/bFlVZV8TQbs8hcIY7PVYonYFMgK-150x150.jpg"
+          },
+          {
+            "title": "Avengers: Endgame",
+            "link": "https://multimovies.sarl/movies/avengers-endgame/",
+            "image": "https://multimovies.sarl/wp-content/uploads/2025/01/ulzhLuWrPK07P1YkdWQLZnQh1JL-150x150.jpg"
+          }
+        ],
+        "timeMs": 1056
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "dhurandhar",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "After the hijacking of IC-814 in 1999 and the Parliament attack in 2001, India’s Intelligence Bureau...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "dhurandhar",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 925
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 2728
+      }
+    },
+    {
+      "provider": "4khdhub",
+      "displayName": "4khdHub",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Home",
+              "filter": ""
+            },
+            {
+              "title": "Latest TV Shows",
+              "filter": "/category/series"
+            },
+            {
+              "title": "Anime",
+              "filter": "/category/anime"
+            },
+            {
+              "title": "4K HDR",
+              "filter": "/category/-2160p-HDR"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 148
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 126
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "1cinevood",
+      "displayName": "Cinewood",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Hollywood",
+              "filter": "hollywood/"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 22,
+        "sample": [
+          {
+            "title": "Bhakutkut 2026 Assamese HQ HDTC 1080p x264 AAC HC-ESub",
+            "link": "https://proxy01.cvproxy.workers.dev/bhakutkut-2026-assamese-hq-hdtc-1080p-x264-aac-hc-esub/",
+            "image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xxlarge/bhakutkut-et00490064-1772610276.jpg"
+          },
+          {
+            "title": "Now You See Me Now You Don’t BluRay Hindi + Multi DV+HDR10 2160p 10bit X265 HEVC DDP 7.1 MSub",
+            "link": "https://proxy01.cvproxy.workers.dev/now-you-see-me-now-you-dont-2025-bluray-hindi-multi-dvhdr10-2160p-10bit-x265-hevc-ddp-7-1-msub/",
+            "image": "https://image.tmdb.org/t/p/w500/mRWxtgMNy01gRVMZpBc4C4WKylY.jpg"
+          }
+        ],
+        "timeMs": 681
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 6,
+        "sample": [
+          {
+            "title": "Avengers Doomsday Thor Special Teaser",
+            "link": "https://proxy01.cvproxy.workers.dev/avengers-doomsday-2026-thor-special-teaser/",
+            "image": "https://image.tmdb.org/t/p/w300/6eB2oh1SplddsZYCdayrIdrIGLd.jpg"
+          },
+          {
+            "title": "Avengers Infinity War 4K JHS WEB-DL Hindi + Multi 2160p HEVC DDP 5.1 ESub",
+            "link": "https://proxy01.cvproxy.workers.dev/avengers-infinity-war-2018-4k-jhs-web-dl-hindi-multi-2160p-hevc-ddp-5-1-esub/",
+            "image": "https://image.tmdb.org/t/p/w500/ypX47SBSThTbB40AIJ22eOUCpjU.jpg"
+          }
+        ],
+        "timeMs": 1308
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Unknown Title",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "[empty]",
+          "linkListCount": 6,
+          "linkListSample": [
+            {
+              "title": "480p | 462.28 MB",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            },
+            {
+              "title": "720p | 1.06 GB",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ]
+        },
+        "timeMs": 332
+      },
+      "getEpisodes": {
+        "status": "PASS",
+        "count": 1,
+        "sample": [
+          {
+            "title": "Bhakutkut 2026 Assamese HDTC 480p x264 AAC HC-ESub CineVood.mkv",
+            "link": "https://new9.oxxfile.info/api/s/re8avD1PJc/hubcloud"
+          }
+        ],
+        "timeMs": 3027
+      },
+      "getStream": {
+        "status": "PASS",
+        "count": 3,
+        "sample": [
+          {
+            "server": "hub mayhem buzz",
+            "link": "https://hub.mayhem.buzz/1eee4157cd9d04d2b44f91e323dfaa74?token=1773824052",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "hubcloud",
+            "link": "https://video-downloads.googleusercontent.com/ADGPM2lnNKbj4LIlMaDAxgffpodAUyho4u",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 5892
+      }
+    },
+    {
+      "provider": "world4u",
+      "displayName": "World4uFree",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Hollywood",
+              "filter": "/category/hollywood"
+            },
+            {
+              "title": "Bollywood",
+              "filter": "/category/bollywood"
+            },
+            {
+              "title": "Web Series",
+              "filter": "/category/web-series"
+            }
+          ],
+          "genres": [
+            {
+              "title": "South",
+              "filter": "/category/hindi-dubbed-movies/south-indian"
+            },
+            {
+              "title": "Punjabi",
+              "filter": "/category/punjabi"
+            },
+            {
+              "title": "Marathi",
+              "filter": "/category/bollywood/marathi"
+            },
+            {
+              "title": "Gujarati",
+              "filter": "/category/gujarati"
+            },
+            {
+              "title": "Bollywood",
+              "filter": "/category/bollywood"
+            },
+            {
+              "title": "Hollywood",
+              "filter": "/category/hollywood"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 6
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 46,
+        "sample": [
+          {
+            "title": "One Mile: Chapter Two 2026 Dual Audio [Hindi 5.1- Eng] WEB-DL Full Movie 1080p 720p 480p HEVC",
+            "link": "https://world4ufree.prof/download-one-mile-chapter-two-2026-dual-audio-movie/",
+            "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNiUOXw0UznZErysqxeC2RDwuhhReswgabzHNPItr1dHZeUl3dr0iaO2Md-_1IqngwDVLmK8GzArq29fgMp83An2VRr8m9XG9lSKrPvxzLZBKDxMMTL_lf_CCQFaxYyUfzvwBRD5MgLIvKUk4DhoOIVhof_kEFaP7MRBWuEq9cI0rYAf1D02zis-7Bw6qy/s400/Download%20One%20Mile%20Chapter%20Two%202026%20Dual%20Audio%20Movie.png"
+          },
+          {
+            "title": "Kaa: The Forest 2026 Hindi 1080p 720p 480p HDTC",
+            "link": "https://world4ufree.prof/download-kaa-the-forest-2026-hindi/",
+            "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibe_eBw_GRUoAKN2FV1hhtQOvIVb_vcKQtL2ozZZZ2wjtHQLWPEuBovqnsrqqJ3W-ax5I_US_n9nhFu0Wyi6USIBDIQhFbYuoLbFVqvc3OWZLv2abkLqMkmW6vwrvYlVHyg98jwAmFt-cZ5nlSsg4zvrJSbjnPDXLfaioc7wUWAo4Qls8_MRwZcVpjAtp9/s320/Download%20Kaa%20The%20Forest%202026%20Hindi.jpg"
+          }
+        ],
+        "timeMs": 1253
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 4,
+        "sample": [
+          {
+            "title": "The Avengers 2012 Dual Audio [Hindi 5.1-English] BluRay Full Movie 1080p 720p 480p HEVC",
+            "link": "https://world4ufree.prof/download-the-avengers-2012-dual-audio/",
+            "image": "https://world4ufree.prof/wp-content/uploads/2021/10/Download-The-Avengers-2012-Dual-Audio.jpg"
+          },
+          {
+            "title": "Avengers: Endgame (2019) Dual Audio HEVC [Hindi 5.1 – Eng 5.1] 1080p & 720p BluRay ESub x265",
+            "link": "https://world4ufree.prof/avengers-endgame-2019-dual-audio-hevc/",
+            "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLAcLDK0ntyeTGhbU557jpYVbIbmo0y4W7qS0SxXlM5uRw_01hZsA9L7lhFzWheN6IVSFirZ8afYMHcNbyNVqJigSEuK1_NnUHMVvIInysuZpFFtIiLeppwSk3cjiVSNBoOpENDpat3w1yNwH7CGeooaTV36KLMT8-447rDekmpIuEuxcPtCSBjz-W/s400/Avengers%20Endgame%20%282019%29%20Dual%20Audio%20%5BHindi%205.1%20%E2%80%93%20Eng%205.1%5D%201080p.jpg"
+          }
+        ],
+        "timeMs": 832
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "  One Mile: Chapter Two 2026",
+          "type": "movie",
+          "imdbId": "tt24326462",
+          "image": "[present]",
+          "synopsis": "A former special forces operative is forced back onto a remote island when a violent, secretive comm...",
+          "linkListCount": 4,
+          "linkListSample": [
+            {
+              "title": "One Mile: Chapter Two 2026 [Hindi – Eng] 1080p x264 [1.7Gb]",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            },
+            {
+              "title": "One Mile: Chapter Two 2026 [Hindi – Eng] 720p x264 [820Mb]",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 178
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 1,
+        "sample": [
+          {
+            "server": "Mediafire",
+            "link": "https://download1078.mediafire.com/unhihi1tu4igGLcNgL7gxzFSTF-3n5GiG0v4pf4Ppu6Kv",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 9439
+      }
+    },
+    {
+      "provider": "katmovies",
+      "displayName": "KatMoviesHd",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Netflix",
+              "filter": "/category/netflix"
+            },
+            {
+              "title": "Animated",
+              "filter": "/category/animated"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "/category/amazon-prime"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Action",
+              "filter": "/category/action"
+            },
+            {
+              "title": "Crime",
+              "filter": "/category/crime"
+            },
+            {
+              "title": "Comedy",
+              "filter": "/category/comedy"
+            },
+            {
+              "title": "Drama",
+              "filter": "/category/drama"
+            },
+            {
+              "title": "Horror",
+              "filter": "/category/horror"
+            },
+            {
+              "title": "Family",
+              "filter": "/category/family"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "/category/sifi"
+            },
+            {
+              "title": "Thriller",
+              "filter": "/category/triller"
+            },
+            {
+              "title": "Romance",
+              "filter": "/category/romance"
+            },
+            {
+              "title": "Fight",
+              "filter": "/category/fight"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 10
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 16,
+        "sample": [
+          {
+            "title": "Invincible (Season 4) Hindi Dubbed (DD 5.1) & English [Dual Audio] | WEB-DL 1080p 720p 480p HD [2021–2026] Episode 01-03 Added",
+            "link": "https://katmoviehd.pictures/invincible-s4-hindi/",
+            "image": "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
+          },
+          {
+            "title": "Furies (Season 2) Hindi Dubbed (DD 5.1) & English [Dual Audio] All Episodes | WEB-DL 1080p 720p 480p HD [2024– Netflix Series]",
+            "link": "https://katmoviehd.pictures/furies-s2-hindi/",
+            "image": "https://m.media-amazon.com/images/M/MV5BNDkyNmU4MzAtOTkxOC00YzQ2LTlmY2QtOWQ0YmVjOGQxMWFlXkEyXkFqcGc@._V1_SX500.jpg"
+          }
+        ],
+        "timeMs": 3417
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 16,
+        "sample": [
+          {
+            "title": "Avengers Grimm 2: Time Wars (2018) Dual Audio [Hindi Dubbed (ORG) + English] BluRay 720p & 480p [HD]",
+            "link": "https://katmoviehd.pictures/avengers-grimm-time-wars/",
+            "image": "https://catimages.org/images/2020/12/15/Avengers_Grimm_Time_Wars-2020.jpg"
+          },
+          {
+            "title": "Avengers Grimm (2015) Hindi Dubbed (ORG) [Dual Audio] BluRay 720p & 480p [Full Movie]",
+            "link": "https://katmoviehd.pictures/avengers-grimm-2015/",
+            "image": "https://catimages.org/images/2020/12/15/Avengers-Grimm-2015-Hindi.jpg"
+          }
+        ],
+        "timeMs": 4979
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": " Invincible (Season 4)",
+          "type": "series",
+          "imdbId": "tt6741278",
+          "image": "[present]",
+          "synopsis": "[empty]",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": " Invincible (Season 4)",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 3
+            }
+          ]
+        },
+        "timeMs": 3741
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 3,
+        "sample": [
+          {
+            "server": "hub mayhem buzz",
+            "link": "https://hub.mayhem.buzz/16dc52c03ace543a8713ae8c59919236?token=1773823080",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "hubcloud",
+            "link": "https://video-downloads.googleusercontent.com/ADGPM2nTHCx6b0V-QWJf_HfbEC3SsCiCC0",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 2426
+      }
+    },
+    {
+      "provider": "mod",
+      "displayName": "MoviesMod",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Netflix",
+              "filter": "/ott/netflix"
+            },
+            {
+              "title": "HBO Max",
+              "filter": "/ott/hbo-max"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "/ott/amazon-prime-video"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Apple TV+",
+              "filter": "/ott/apple-tv"
+            },
+            {
+              "title": "Disney+",
+              "filter": "/ott/disney-plus"
+            },
+            {
+              "title": "Hulu",
+              "filter": "/ott/hulu"
+            },
+            {
+              "title": "Crunchyroll",
+              "filter": "/ott/crunchyroll"
+            },
+            {
+              "title": "Action",
+              "filter": "/movies-by-genre/action/"
+            },
+            {
+              "title": "Adventure",
+              "filter": "/movies-by-genre/adventure/"
+            },
+            {
+              "title": "Animation",
+              "filter": "/movies-by-genre/animated/"
+            },
+            {
+              "title": "Comedy",
+              "filter": "/movies-by-genre/comedy/"
+            },
+            {
+              "title": "Crime",
+              "filter": "/movies-by-genre/crime/"
+            },
+            {
+              "title": "Documentary",
+              "filter": "/movies-by-genre/documentary/"
+            },
+            {
+              "title": "Fantasy",
+              "filter": "/movies-by-genre/fantasy/"
+            },
+            {
+              "title": "Horror",
+              "filter": "/movies-by-genre/horror/"
+            },
+            {
+              "title": "Mystery",
+              "filter": "/movies-by-genre/mystery/"
+            },
+            {
+              "title": "Romance",
+              "filter": "/movies-by-genre/romance/"
+            },
+            {
+              "title": "Thriller",
+              "filter": "/movies-by-genre/thriller/"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "/movies-by-genre/sci-fi/"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 16
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 20,
+        "sample": [
+          {
+            "title": "Download Furies (Season 1-2) Multi Audio {Hindi-English-French} WeB-DL 480p [160MB] || 720p [280MB] || 1080p [970MB]",
+            "link": "https://moviesmod.pink/download-furies-season-1-hindi-480p-720p-1080p/",
+            "image": "https://moviesmod.pink/wp-content/uploads/2024/03/Download-Furies-MoviesMod.jpg"
+          },
+          {
+            "title": "Download Radioactive Emergency (Season 1) Multi Audio {Hindi-English-Portuguese} WeB-DL 480p [150MB] || 720p [300MB] || 1080p [1.5GB]",
+            "link": "https://moviesmod.pink/download-radioactive-emergency-season-1-hindi-480p-720p-1080p/",
+            "image": "https://moviesmod.pink/wp-content/uploads/2026/03/Download-Radioactive-Emergency-S01-Hindi-Dubbed-480p-720p-1080p.jpg"
+          }
+        ],
+        "timeMs": 973
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 14,
+        "sample": [
+          {
+            "title": "Download LEGO Marvel Avengers: Strange Tails (Season 1) [S01E02 Added] Dual Audio {English-Romanian} Esubs WeB-DL 720p [120MB] || 1080p [1GB]",
+            "link": "https://moviesmod.pink/download-lego-marvel-avengers-strange-tails-season-1-english-romanian-720p-1080p/",
+            "image": "https://moviesmod.pink/wp-content/uploads/2025/11/Download-LEGO-Marvel-Avengers-Strange-Tails-MoviesMod.jpeg"
+          },
+          {
+            "title": "Download Thunderbolts* AKA *The New Avengers (2025) Dual Audio {Hindi-English} BluRay 480p [580MB] || 720p [1.2GB] || 1080p [3.1GB]",
+            "link": "https://moviesmod.pink/download-thunderbolts-aka-the-new-avengers-2025-hindi-english-480p-720p-1080p/",
+            "image": "https://moviesmod.pink/wp-content/uploads/2025/08/Thunderbolts-AKA-The-New-Avengers-2025-MoviesMod.cafe_.jpg"
+          }
+        ],
+        "timeMs": 1336
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Furies",
+          "type": "series",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "A dive into Paris’s criminal underworld, where Lyna meets the enigmatic and brutal Furie, the boss o...",
+          "linkListCount": 5,
+          "linkListSample": [
+            {
+              "title": "Season 1 {Hindi-English-French} 480p x264 Msubs [160MB]",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            },
+            {
+              "title": "Season 1 {Hindi-English-French} 720p 10Bit Msubs [280MB]",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ]
+        },
+        "timeMs": 167
+      },
+      "getEpisodes": {
+        "status": "PASS",
+        "count": 8,
+        "sample": [
+          {
+            "title": "Episode 1",
+            "link": "https://tech.unblockedgames.world/?sid=a3Y4azk3STZ5RVphb1c0d0pkeDllbjluV0NSTDRXN"
+          },
+          {
+            "title": "Episode 2",
+            "link": "https://tech.unblockedgames.world/?sid=a3Y4azk3STZ5RVphb1c0d0pkeDllbjluV0NSTDRXN"
+          },
+          {
+            "title": "Episode 3",
+            "link": "https://tech.unblockedgames.world/?sid=a3Y4azk3STZ5RVphb1c0d0pkeDllbjluV0NSTDRXN"
+          }
+        ],
+        "timeMs": 861
+      },
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 2860
+      }
+    },
+    {
+      "provider": "uhd",
+      "displayName": "UHDMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Web Series",
+              "filter": "/web-series"
+            },
+            {
+              "title": "Movies",
+              "filter": "/movies"
+            },
+            {
+              "title": "4K HDR",
+              "filter": "/4k-hdr"
+            }
+          ],
+          "genres": [
+            {
+              "title": "4K HEVC",
+              "filter": "/2160p-hevc"
+            },
+            {
+              "title": "HD 10bit",
+              "filter": "/1080p-10bit"
+            },
+            {
+              "title": "English Movies",
+              "filter": "/movies/english-movies"
+            },
+            {
+              "title": "Dual Audio",
+              "filter": "/movies/dual-audio-movies"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 4
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 13,
+        "sample": [
+          {
+            "title": "Now You See Me: Now You Don’t (2025) Dual Audio {Hindi-English} 2160p || 4K DV HDR || 1080p REMUX || 1080p x264 ||1080p 10Bit HEVC || Blu-ray Esubs",
+            "link": "https://uhdmovies.ink/download-now-you-see-me-now-you-dont-2025-dual-audio-hindi-english-2160p-4k-dv-hdr-1080p-remux-1080p-x264-1080p-10bit-hevc-blu-ray-esubs/",
+            "image": "https://uhdmovies.ink/wp-content/uploads/nsw-270x405.webp"
+          },
+          {
+            "title": "Cross (2024) (Season 2) [Episode 8 Added] Dual Audio {Hindi-English} 2160p || 4k || 1080p || x264 || HEVC || HDR ||  WEB-DL Esubs",
+            "link": "https://uhdmovies.ink/download-cross-2024-season-1-dual-audio-hindi-english-1080p-x264-hevc-web-dl-esubs/",
+            "image": "https://uhdmovies.ink/wp-content/uploads/Download-Cross-270x405.jpeg"
+          }
+        ],
+        "timeMs": 1835
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 4,
+        "sample": [
+          {
+            "title": "Scavengers Reign (2023) (Season 1) {English audio} 1080p 10bit || 1080p X264 || 1080p HEVC WEB-DL ESub",
+            "link": "https://uhdmovies.ink/download-scavengers-reign-2023-season-1-english-audio-1080p-10bit-1080p-x264-1080p-hevc-web-dl-esub/",
+            "image": "https://uhdmovies.ink/wp-content/uploads/scavengers-270x405.jpg"
+          },
+          {
+            "title": "Avengers: Endgame (2019) IMAX Dual Audio {Hindi-English} 1080p 10Bit || 2160p 4k HEVC WEB-DL Esubs",
+            "link": "https://uhdmovies.ink/download-avengers-endgame-2019-dual-audio-hindi-english-1080p-10bit-2160p-4k-hevc-web-dl-esubs/",
+            "image": "https://uhdmovies.ink/wp-content/uploads/816zDoipAxL._SL1500_.jpg"
+          }
+        ],
+        "timeMs": 850
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Now You See Me: Now You Don’t ",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "Download Now You See Me: Now You Don’t (2025) \n2160p & 1080p Blu-ray\n[Dual Audio]...",
+          "linkListCount": 6,
+          "linkListSample": [
+            {
+              "title": "Now You See Me Now You Don’t (2025) 2160p UHD BluRay DV HDR 10bit HEVC [Hindi DDP 5.1 + English TrueHD Atmos 7.1] x265 (UBits-UHDMovies)\n[23.87 GB]",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            },
+            {
+              "title": "Now You See Me Now You Don’t (2025) 2160p UHD BluRay DV HDR 10bit HEVC [Hindi DDP 5.1 + English DDP 7.1] x265 (hallowed-UHDMovies)\n[15.57 GB]",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 239
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 2,
+        "sample": [
+          {
+            "server": "Gdrive-Instant-2",
+            "link": "https://video-downloads.googleusercontent.com/ADGPM2k0QMca0f01J5e4n6Vr-6dQ8ZJfS-",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "ResumeCloud",
+            "link": "https://worker-flat-violet-2564.tafipoj924.workers.dev/46339c97c775c18e153424644",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 8450
+      }
+    },
+    {
+      "provider": "protonMovies",
+      "displayName": "ProtonMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": "/movies"
+            },
+            {
+              "title": "Netflix",
+              "filter": "/platform/netflix"
+            },
+            {
+              "title": "Disney +",
+              "filter": "/platform/disney-hotstar"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "/platform/amazon-prime-video"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 40,
+        "sample": [
+          {
+            "title": " The RajaSaab The RajaSaab (2026) ",
+            "link": "/movie/8260-the-rajasaab-2026.html",
+            "image": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_QL50_UY562_CR0,0,380,562_.jpg"
+          },
+          {
+            "title": " People We Meet on Vacation People We Meet on Vacation (2026) ",
+            "link": "/movie/8259-people-we-meet-on-vacation-2026.html",
+            "image": "https://m.media-amazon.com/images/M/MV5BM2ZmZWEyOGItYzVjYi00N2Q3LTlmNDItYmUwZjFhMTJmMzgzXkEyXkFqcGc@._V1_QL50_UY562_CR0,0,380,562_.jpg"
+          }
+        ],
+        "timeMs": 501
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 30,
+        "sample": [
+          {
+            "title": " Thunderbolts* | The New Avengers Thunderbolts* | The New Avengers (2025) ",
+            "link": "/movie/6531-thunderbolts-2025.html",
+            "image": "https://m.media-amazon.com/images/M/MV5BNDIzNGUwZmYtODM0Yy00NjA3LTgxOGUtOTY0ZGM5MjBkM2I3XkEyXkFqcGc@._V1_QL50_UY562_CR0,0,380,562_.jpg"
+          },
+          {
+            "title": " Lego Marvel Avengers: Code Red Lego Marvel Avengers: Code Red (2023) ",
+            "link": "/movie/2429-lego-marvel-avengers-code-red-2023.html",
+            "image": "https://m.media-amazon.com/images/M/MV5BNWI2NWRjYzAtMGI4OS00NzgzLTk2MWEtNGI1ODI0ZWYzNjJjXkEyXkFqcGc@._V1_QL50_UY562_CR0,0,380,562_.jpg"
+          }
+        ],
+        "timeMs": 479
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "The RajaSaab 2026 Movie",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": " A young heir embraces both his royal heritage and rebellious spirit as he rises to power, establish...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "Movie",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ],
+          "tags": [
+            "Action",
+            "Comedy",
+            "Fantasy"
+          ]
+        },
+        "timeMs": 188
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 1652
+      }
+    },
+    {
+      "provider": "filmyfly",
+      "displayName": "FilmyFly",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Home",
+              "filter": ""
+            },
+            {
+              "title": "Web Series",
+              "filter": "/page-cat/42/Web-Series.html"
+            },
+            {
+              "title": "Hollywood",
+              "filter": "/page-cat/4/Hollywood-Hindi-Movies.html"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 3,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 54,
+        "sample": [
+          {
+            "title": "Sardar (2022) (Hindi + Tamil) Dual Audio UnCut South Movie HD ESub",
+            "link": "https://new2.filmyfiy.org/page-download/6415/Sardar-2022-Hindi-Tamil-Dual-Audio-UnCut-South-Movie-HD-ESub.html",
+            "image": "https://webp.imgcdn7.xyz/webpcdn/120:130/100/aHR0cHM6Ly9waXgxLmI0NDJkNmVlZmJkNjE3M2JhZDdlZTViZGU2Y2QzMWU4LmNvbS9kb3dubG9hZC9pbWdfNjliNTk5YmQ3NzExNDAuNTE4MDcyMTUvZmlsbXk0d2FwK3dhcGtpenMrY29tL1NhcmRhci0yMDIyLUhpbmRpLVRhbWlsLUR1YWwtQXVkaW8tVW5DdXQtU291dGgtTW92aWUtSEQtRVN1Yi0oZmlsbXlzZXJ2ZXIxLmNvbSkuanBn.webp"
+          },
+          {
+            "title": "The Raja Saab (2026) (Hindi + Telugu) Dual Audio UnCut South Movie HD ESub",
+            "link": "https://new2.filmyfiy.org/page-download/6160/The-Raja-Saab-2026-Hindi-Telugu-Dual-Audio-UnCut-South-Movie-HD-ESub.html",
+            "image": "https://webp.imgcdn7.xyz/webpcdn/120:130/100/aHR0cHM6Ly9waXgxLmI0NDJkNmVlZmJkNjE3M2JhZDdlZTViZGU2Y2QzMWU4LmNvbS9kb3dubG9hZC9pbWdfNjlhOWUxNjRjZGY0YTEuMjc0MjI0MjEvZmlsbXk0d2FwK3dhcGtpenMrY29tL1RoZS1SYWphLVNhYWItMjAyNi1IaW5kaS1UZWx1Z3UtRHVhbC1BdWRpby1VbkN1dC1Tb3V0aC1Nb3ZpZS1IRC1FU3ViLShmaWxteXNlcnZlcjEuY29tKS5qcGc.webp"
+          }
+        ],
+        "timeMs": 867
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 8,
+        "sample": [
+          {
+            "title": " Avengers Endgame (2019) MCU {Hindi + English} BluRay Dual Audio Full Movie HD ESub",
+            "link": "https://new2.filmyfiy.org/page-download/3567/Avengers-Endgame-2019-MCU-Hindi-English-BluRay-Dual-Audio-Full-Movie-HD-ESub.html",
+            "image": "https://webp.imgcdn7.xyz/webpcdn/120:130/100/aHR0cHM6Ly9kbDcuYjQ0MmQ2ZWVmYmQ2MTczYmFkN2VlNWJkZTZjZDMxZTguY29tL2Rvd25sb2FkLzAyZGI0NTE3MmI4MWFhOTQyY2U5Y2Q4NTJiY2M2YjkwL2ZpbG15NHdhcCt3YXBraXpzK2NvbS9BdmVuZ2Vycy1FbmRnYW1lLTIwMTktTUNVLUhpbmRpLUVuZ2xpc2gtQmx1UmF5LUR1YWwtQXVkaW8tRnVsbC1Nb3ZpZS1IRC1FU3ViLShmaWxteXNlcnZlcjEuY29tKS5qcGc.webp"
+          },
+          {
+            "title": " Avengers Infinity War (2018) MCU {Hindi + English} BluRay Dual Audio Full Movie HD ESub",
+            "link": "https://new2.filmyfiy.org/page-download/3566/Avengers-Infinity-War-2018-MCU-Hindi-English-BluRay-Dual-Audio-Full-Movie-HD-ESub.html",
+            "image": "https://webp.imgcdn7.xyz/webpcdn/120:130/100/aHR0cHM6Ly9kbDcuYjQ0MmQ2ZWVmYmQ2MTczYmFkN2VlNWJkZTZjZDMxZTguY29tL2Rvd25sb2FkL2Q1MWIzOWZhNGQzYWNjM2FjNDE5ODFmY2ZiNmM4Zjk3L2ZpbG15NHdhcCt3YXBraXpzK2NvbS9BdmVuZ2Vycy1JbmZpbml0eS1XYXItMjAxOC1NQ1UtSGluZGktRW5nbGlzaC1CbHVSYXktRHVhbC1BdWRpby1GdWxsLU1vdmllLUhELUVTdWItKGZpbG15c2VydmVyMS5jb20pLmpwZw.webp"
+          }
+        ],
+        "timeMs": 512
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Sardar (2022) (Hindi + Tamil) Dual Audio UnCut South Movie HD ESub",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "An espionage agent who is branded a traitor returns from exile to take down a dubious water project ...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "Sardar (2022) (Hindi + Tamil) Dual Audio UnCut South Movie HD ESub",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ],
+          "tags": [
+            "Thriller",
+            " Action"
+          ],
+          "rating": ""
+        },
+        "timeMs": 2912
+      },
+      "getEpisodes": {
+        "status": "PASS",
+        "count": 6,
+        "sample": [
+          {
+            "title": "560mb {480p-HEVC}",
+            "link": "https://new1.filesdl.in/cloud/FMgjVoznTi"
+          },
+          {
+            "title": "910mb {720p-HEVC}",
+            "link": "https://new1.filesdl.in/cloud/itB9I1nwKm"
+          },
+          {
+            "title": "1.5Gb {720p-HD}",
+            "link": "https://new1.filesdl.in/cloud/PrhquGMal9"
+          }
+        ],
+        "timeMs": 352
+      },
+      "getStream": {
+        "status": "PASS",
+        "count": 4,
+        "sample": [
+          {
+            "server": "Fast Cloud (560.28 MB)",
+            "link": "https://aws-buktes2.shop/o3w283/Sardar%20%282022%29%20%28Hindi%20%2B%20Tamil%29%",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "SlowCloud DL",
+            "link": "https://tight-pine-da06.mega01.workers.dev/?dl=dpnyueb2wqd7ei0&token=MTgwMzI2",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 10199
+      }
+    },
+    {
+      "provider": "movies4u",
+      "displayName": "Movies4U",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Trending",
+              "filter": ""
+            },
+            {
+              "title": "Anime",
+              "filter": "/category/anime/"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 1140
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 45
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "kmMovies",
+      "displayName": "KmMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Bollywood",
+              "filter": "category/movies/"
+            },
+            {
+              "title": "Dual",
+              "filter": "category/dual-audio/"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 3,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 19,
+        "sample": [
+          {
+            "title": "4K DV HDR ⭐ 7.1 One Mile: Chapter Two Movie Action 🇨🇦",
+            "link": "https://kmmovies.world/one-mile-chapter-two-2026/",
+            "image": "https://images.kmphotos.cv/tmdb/poster/one-mile-chapter-two.2026.ed21aace3390.webp"
+          },
+          {
+            "title": "4K WEB-DL ⭐ 6.9 Stree 2 Movie Horror 🇮🇳",
+            "link": "https://kmmovies.world/stree-2-sarkate-ka-aatank-2024-hindi-download-2160p-web-dl/",
+            "image": "https://images.kmphotos.cv/tmdb/poster/stree-2.2024.701a7af8cc6e.webp"
+          }
+        ],
+        "timeMs": 549
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 11,
+        "sample": [
+          {
+            "title": "⭐ 7.9 The Avengers 2012 Dual Audio Download 2160p UHD HDR10 DV REMUX BluRay Movie Science Fiction 🇺🇸",
+            "link": "https://kmmovies.world/the-avengers-2012-dual-audio-hindi-english-download-2160p-uhd-hdr10-dv-remux-bluray/",
+            "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+          },
+          {
+            "title": "⭐ 8.2 Avengers: Endgame 2019 Dual Audio Download 2160p UHD HDR10 DV REMUX IMAX BluRay Movie Adventure 🇺🇸",
+            "link": "https://kmmovies.world/avengers-endgame-2019-dual-audio-hindi-english-download-2160p-uhd-hdr10-dv-remux-imax-bluray/",
+            "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
+          }
+        ],
+        "timeMs": 451
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "One Mile: Chapter Two (2026)",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "Save my name, email, and website in this browser for the next time I comment....",
+          "linkListCount": 0,
+          "linkListSample": [],
+          "tags": [
+            "Action",
+            "Drama"
+          ],
+          "cast": [],
+          "rating": ""
+        },
+        "timeMs": 241
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "zeefliz",
+      "displayName": "Zeefliz",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Trending",
+              "filter": ""
+            },
+            {
+              "title": "Shows",
+              "filter": "category/web-series/"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 43,
+        "sample": [
+          {
+            "title": "FURIES – Netflix Original (Season 1 – 2) Complete Dual Audio {Hindi English} 480p | 720p | 1080p WEB DL",
+            "link": "https://zeefliz.skin/download-furies-season-1-2-complete-hindi-dubbed-480p-720p-1080p-web-dl/",
+            "image": "https://zeefliz.skin/wp-content/uploads/2026/03/furies-netflix-original-season-1-zeefliz.webp"
+          },
+          {
+            "title": "Now You See Me: Now You Don’t (2025) Blu Ray Dual Audio {Hindi English} 480p [350MB] | 720p [1.2GB] | 1080p [3GB]",
+            "link": "https://zeefliz.skin/download-now-you-see-me-now-you-dont-2025-hindi-dubbed-full-movie-480p-720p-1080p-blu-ray/",
+            "image": "https://zeefliz.skin/wp-content/uploads/2026/03/now-you-see-me-now-you-don-t-2025-zeefliz.webp"
+          }
+        ],
+        "timeMs": 652
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 11,
+        "sample": [
+          {
+            "title": "Avengers Grimm: Time Wars (2018) Dual Audio {Hindi English} BluRay 480p [300MB] | 720p [900MB] | 1080p [2GB]",
+            "link": "https://zeefliz.skin/download-avengers-grimm-time-wars-2018-hindi-org-english-480p-720p-1080p-bluray/",
+            "image": "https://zeefliz.skin/wp-content/uploads/2025/11/avengers-grimm-time-wars-2018-zeefliz.webp"
+          },
+          {
+            "title": "Avengers Grimm (2015) Dual Audio {Hindi English} BluRay 480p [300MB] | 720p [820MB] | 1080p [2GB]",
+            "link": "https://zeefliz.skin/download-avengers-grimm-2015-hindi-org-english-480p-720p-1080p-bluray/",
+            "image": "https://zeefliz.skin/wp-content/uploads/2025/11/avengers-grimm-2015-zeefliz.webp"
+          }
+        ],
+        "timeMs": 2497
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Screenshots: (Must See Before Downloading)…",
+          "type": "series",
+          "imdbId": "tt11384300",
+          "image": "[present]",
+          "synopsis": "✅ Download FURIES (2024-2026) Season 1 : 2 Dual-Audio {Hindi-English} WEB Series Complete All Episod...",
+          "linkListCount": 0,
+          "linkListSample": []
+        },
+        "timeMs": 140
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "ringz",
+      "displayName": "Ringz",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Movies",
+              "filter": "MOVIES"
+            },
+            {
+              "title": "TV Shows",
+              "filter": "SERIES"
+            },
+            {
+              "title": "Anime",
+              "filter": "ANIME"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 3,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 6006,
+        "sample": [
+          {
+            "title": "Tere Ishk Mein (2025)",
+            "link": "{\"id\":\"6107\",\"IH\":\"https://ereviewwala.com/Poster/Movies/H3/Tere%20Ishk%20Mein%20(2025).jpg\",\"IV\":\"https://ereviewwala.com/Poster/Movies/V3/Tere%20Ishk%20Mein%20(2025).jpg\",\"mn\":\"Tere Ishk Mein (2025)\",\"hf\":\"https://www.6107\",\"lng\":\"Hindi+Tamil\",\"trailer\":\"LixDSK0BRFs\",\"qlty\":\"HDTC-V2\",\"gn\":\"Romance,Drama\",\"cg\":\"Bollywood\",\"l\":\"old/hehe.json\"}",
+            "image": "https://ereviewwala.com/Poster/Movies/V3/Tere%20Ishk%20Mein%20(2025).jpg"
+          },
+          {
+            "title": "De De Pyaar De 2 (2025)",
+            "link": "{\"id\":\"6055\",\"IH\":\"https://ereviewwala.com/Poster/Movies/H3/De%20De%20Pyaar%20De%202%20(2025).jpg\",\"IV\":\"https://ereviewwala.com/Poster/Movies/V3/De%20De%20Pyaar%20De%202%20(2025).jpg\",\"mn\":\"De De Pyaar De 2 (2025)\",\"hf\":\"https://www.6055\",\"lng\":\"Hindi\",\"trailer\":\"59aIp7SfIIk\",\"qlty\":\"HDTC\",\"gn\":\"Comedy,Romance,Family,Drama\",\"cg\":\"Bollywood\",\"l\":\"old/hehe.json\"}",
+            "image": "https://ereviewwala.com/Poster/Movies/V3/De%20De%20Pyaar%20De%202%20(2025).jpg"
+          }
+        ],
+        "timeMs": 168
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 7,
+        "sample": [
+          {
+            "title": "Avengers Grimm (2015)",
+            "link": "{\"id\":\"584\",\"IH\":\"https://mvsh1.rogmovies.in/pt4qbkeyzopbm0x6g.jpg\",\"IV\":\"https://mvsv1.rogmovies.in/8tvyp8wib14ve396g.jpg\",\"mn\":\"Avengers Grimm (2015)\",\"hf\":\"https://www.584\",\"lng\":\"Hindi+English\",\"trailer\":\"MZrgTBEfS4Y\",\"qlty\":\"HD\",\"gn\":\"Action\",\"cg\":\"Hollywood\",\"l\":\"old/hehe2.json\"}",
+            "image": "https://mvsv1.rogmovies.in/8tvyp8wib14ve396g.jpg"
+          },
+          {
+            "title": "Avengers Grimm Time Wars (2018)",
+            "link": "{\"id\":\"585\",\"IH\":\"https://mvsh1.rogmovies.in/q9s43zahse5ys5c6g.jpg\",\"IV\":\"https://mvsv1.rogmovies.in/3r8qihvxw2ipbn16g.jpg\",\"mn\":\"Avengers Grimm Time Wars (2018)\",\"hf\":\"https://www.585\",\"lng\":\"Hindi+English\",\"trailer\":\"-PDdC9BWTtA\",\"qlty\":\"HD\",\"gn\":\"Action\",\"cg\":\"Hollywood\",\"l\":\"old/hehe2.json\"}",
+            "image": "https://mvsv1.rogmovies.in/3r8qihvxw2ipbn16g.jpg"
+          }
+        ],
+        "timeMs": 104
+      },
+      "getMeta": {
+        "status": "WARN",
+        "data": {
+          "title": "Tere Ishk Mein (2025)",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "[empty]",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "hasEpisodesLink": false,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ],
+          "tags": [
+            "Romance",
+            "Drama"
+          ]
+        },
+        "issues": [
+          "linkList[0]: missing title",
+          "linkList[0]: has neither episodesLink nor directLinks"
+        ],
+        "timeMs": 0
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "hdhub4u",
+      "displayName": "HdHub4u",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Web Series",
+              "filter": "/category/web-series"
+            },
+            {
+              "title": "Hollywood ",
+              "filter": "/category/hollywood-movies"
+            },
+            {
+              "title": "South Movies",
+              "filter": "/category/south-hindi-movies"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Action",
+              "filter": "/category/action"
+            },
+            {
+              "title": "Crime",
+              "filter": "/category/crime"
+            },
+            {
+              "title": "Comedy",
+              "filter": "/category/comedy"
+            },
+            {
+              "title": "Drama",
+              "filter": "/category/drama"
+            },
+            {
+              "title": "Horror",
+              "filter": "/category/horror"
+            },
+            {
+              "title": "Family",
+              "filter": "/category/family"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "/category/sifi"
+            },
+            {
+              "title": "Thriller",
+              "filter": "/category/triller"
+            },
+            {
+              "title": "Romance",
+              "filter": "/category/romance"
+            },
+            {
+              "title": "Fight",
+              "filter": "/category/fight"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 10
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 48,
+        "sample": [
+          {
+            "title": "One Mile: Chapter Two (2026) WEB-DL [Hindi (DD5.1) & English] 1080p 720p & 480p Dual Audio [x264/10Bit-HEVC] | Full Movie",
+            "link": "https://new4.hdhub4u.fo/one-mile-chapter-two-2026-webrip-hindi-full-movie/",
+            "image": "https://image.tmdb.org/t/p/w342/3sjc9qXXmQoUWKQ3qIjS1nZaUJy.jpg"
+          },
+          {
+            "title": "Preschool (2026) WEB-DL [Hindi (DD5.1) & English] 1080p 720p & 480p Dual Audio [x264/10Bit-HEVC] | Full Movie",
+            "link": "https://new4.hdhub4u.fo/preschool-2026-webrip-hindi-full-movie/",
+            "image": "https://image.tmdb.org/t/p/w342/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg"
+          }
+        ],
+        "timeMs": 1898
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 776
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "One Mile: Chapter Two (Hindi Dubbed)",
+          "type": "movie",
+          "imdbId": "tt24326462",
+          "image": "[present]",
+          "synopsis": "[empty]",
+          "linkListCount": 3,
+          "linkListSample": [
+            {
+              "title": "480p⚡[330MB]",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            },
+            {
+              "title": "720p x264 [810MB]",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 1244
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 3,
+        "sample": [
+          {
+            "server": "hub mayhem buzz",
+            "link": "https://hub.mayhem.buzz/3f7696d0a9b02dd1cb8773e114b134ca?token=1773818456",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "hubcloud",
+            "link": "https://video-downloads.googleusercontent.com/ADGPM2nLPk1Gb2Oc5t7ArXPYytNNG1pDBp",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 3003
+      }
+    },
+    {
+      "provider": "moviezwap",
+      "displayName": "MoviezWap",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Telugu Movies",
+              "filter": "/category/Telugu-(2025)-Movies.html"
+            },
+            {
+              "title": "Tamil Movies",
+              "filter": "/category/Tamil-(2025)-Movies.html"
+            },
+            {
+              "title": "Hollywood Telugu Dubbed",
+              "filter": "/category/Telugu-Dubbed-Hollywood-Movies-Complete-Set.html"
+            },
+            {
+              "title": "Web Series",
+              "filter": "/category/Telugu-Web-Series.html"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 21,
+        "sample": [
+          {
+            "title": "Money Heist Telugu Dubbed All Season (01 TO 05)",
+            "link": "/movie/Money-Heist-Telugu-Dubbed-Season-(01-to-05)-All-Episodes.html",
+            "image": ""
+          },
+          {
+            "title": "Prematho Deyyam (2025) Telugu Original HDRip",
+            "link": "/movie/Prematho-Deyyam-(2025)-Telugu-Original.html",
+            "image": ""
+          }
+        ],
+        "timeMs": 467
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 916
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Money Heist Telugu Dubbed Season (01 to 05) All Episodes HDRip ESub Full Movie Free Download HD MP4 Format for PC Laptop Android Mobile Tab",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "[empty]",
+          "linkListCount": 6,
+          "linkListSample": [
+            {
+              "title": "Money Heist (2021) Telugu Season 05 Vol.2 Eps (06 to 10)",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            },
+            {
+              "title": "Money Heist (2021) Telugu Season 05 Vol.1 Eps (01 to 05)",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ],
+          "tags": [
+            "Telugu Web Series",
+            "2017 - 2021"
+          ]
+        },
+        "timeMs": 751
+      },
+      "getEpisodes": {
+        "status": "PASS",
+        "count": 2,
+        "sample": [
+          {
+            "title": "Money-Heist-(2021)-Telugu-Season-5-Vol-2-Eps-(06-10)-HDRip-480p-HQ-ESub.Mp4",
+            "link": "https://www.moviezwap.surf//download.php?file=60672"
+          },
+          {
+            "title": "Money-Heist-(2021)-Telugu-Season-5-Vol-2-Eps-(06-10)-HDRip-360p-HQ-ESub.Mp4",
+            "link": "https://www.moviezwap.surf//download.php?file=60673"
+          }
+        ],
+        "timeMs": 460
+      },
+      "getStream": {
+        "status": "PASS",
+        "count": 1,
+        "sample": [
+          {
+            "server": "Fast Download",
+            "link": "https://10g3.moviezzwaphd.xyz/Telugu Web Series/Money-Heist-(2021)-Telugu-Dubbed",
+            "type": "mp4",
+            "hasSubtitles": false,
+            "hasHeaders": true
+          }
+        ],
+        "timeMs": 1277
+      }
+    },
+    {
+      "provider": "showbox",
+      "displayName": "ShowBox",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Home",
+              "filter": ""
+            },
+            {
+              "title": "Movies",
+              "filter": "/movie"
+            },
+            {
+              "title": "TV Shows",
+              "filter": "/tv"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 3,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 48
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 20
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "ridoMovies",
+      "displayName": "RidoMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Popular Movies",
+              "filter": "/top/catalog/movie/top.json"
+            },
+            {
+              "title": "Featured Movies",
+              "filter": "/imdbRating/catalog/movie/imdbRating.json"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 49,
+        "sample": [
+          {
+            "title": "War Machine",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt15940132.json",
+            "image": "https://images.metahub.space/poster/small/tt15940132/img"
+          },
+          {
+            "title": "Zootopia 2",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt26443597.json",
+            "image": "https://images.metahub.space/poster/small/tt26443597/img"
+          }
+        ],
+        "timeMs": 52
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 15,
+        "sample": [
+          {
+            "title": "Avengers: Doomsday",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt21357150.json",
+            "image": "https://m.media-amazon.com/images/M/MV5BM2E1ZTJiZTgtZGI2Zi00MzAxLThhZjktMmU3M2E3Yzk3NjUxXkEyXkFqcGc@._V1_SX250.jpg"
+          },
+          {
+            "title": "Avengers: Endgame",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt4154796.json",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg"
+          }
+        ],
+        "timeMs": 37
+      },
+      "getMeta": {
+        "status": "WARN",
+        "data": {
+          "title": "",
+          "type": "movie",
+          "imdbId": "tt15940132",
+          "image": "[empty]",
+          "synopsis": "[empty]",
+          "linkListCount": 0,
+          "linkListSample": []
+        },
+        "issues": [
+          "Missing title"
+        ],
+        "timeMs": 40
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "flixhq",
+      "displayName": "FlixHQ",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Trending",
+              "filter": "/trending"
+            },
+            {
+              "title": "Movies",
+              "filter": "/recent-movies"
+            },
+            {
+              "title": "TV Shows",
+              "filter": "/recent-shows"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 3,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 48,
+        "sample": [
+          {
+            "title": "Scream 7",
+            "link": "movie/watch-scream-7-146008",
+            "image": "https://f.woowoowoowoo.net/resize/250x400/a7/aa/a7aa38876018945cbb103b5df591085c/a7aa38876018945cbb103b5df591085c.jpg"
+          },
+          {
+            "title": "Zootopia 2",
+            "link": "movie/watch-zootopia-2-138460",
+            "image": "https://f.woowoowoowoo.net/resize/250x400/81/8a/818a11c04a0530dea9b4d811d330b7a6/818a11c04a0530dea9b4d811d330b7a6.jpg"
+          }
+        ],
+        "timeMs": 14438
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 27,
+        "sample": [
+          {
+            "title": "Avengers Grimm",
+            "link": "movie/watch-avengers-grimm-3014",
+            "image": "https://f.woowoowoowoo.net/resize/250x400/eb/70/eb7020929c8f5e0c3650f43a0483a087/eb7020929c8f5e0c3650f43a0483a087.jpg"
+          },
+          {
+            "title": "The Avengers",
+            "link": "movie/watch-the-avengers-14044",
+            "image": "https://f.woowoowoowoo.net/resize/250x400/d8/91/d8912dbdbcb565906799bc115f610080/d8912dbdbcb565906799bc115f610080.jpg"
+          }
+        ],
+        "timeMs": 6490
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Scream 7",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, he...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "Scream 7",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ],
+          "tags": [
+            "Movie",
+            "114 min",
+            "2026"
+          ],
+          "cast": [
+            "Neve Campbell",
+            "Courteney Cox",
+            "Isabel May"
+          ],
+          "rating": 5.9
+        },
+        "timeMs": 4572
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 2769
+      }
+    },
+    {
+      "provider": "primewire",
+      "displayName": "Primewire",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Recently Added",
+              "filter": "/filter?sort=Just+Added&free_links=true"
+            },
+            {
+              "title": "TV Shows",
+              "filter": "/filter?sort=Trending+Today&type=tv"
+            },
+            {
+              "title": "Movies",
+              "filter": "/filter?sort=Trending+Today&type=movie"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 3,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 24,
+        "sample": [
+          {
+            "title": "Wild Vacation Rentals (2026)",
+            "link": "https://primewire.si/tv/1649073-wild-vacation-rentals",
+            "image": "/poster/small/1649073-wild-vacation-rentals-HRgLU.jpg"
+          },
+          {
+            "title": "Judy Justice (2021)",
+            "link": "https://primewire.si/tv/1406668-judy-justice",
+            "image": "/poster/small/1406668-judy-justice-Smtqf.jpg"
+          }
+        ],
+        "timeMs": 699
+      },
+      "getSearchPosts": {
+        "status": "FAIL",
+        "error": "Aes.sha1 is not a function"
+      },
+      "getMeta": {
+        "status": "WARN",
+        "data": {
+          "title": "",
+          "type": "series",
+          "imdbId": "",
+          "image": "[empty]",
+          "synopsis": "[empty]",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "Season 1",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 4
+            }
+          ]
+        },
+        "issues": [
+          "Missing title"
+        ],
+        "timeMs": 322
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 308
+      }
+    },
+    {
+      "provider": "hiAnime",
+      "displayName": "HiAnime",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Recent",
+              "filter": "/anime/zoro/recent-episodes"
+            },
+            {
+              "title": "Top Airing",
+              "filter": "/anime/zoro/top-airing"
+            },
+            {
+              "title": "Most Popular",
+              "filter": "/anime/zoro/most-popular"
+            },
+            {
+              "title": "Most Favorited",
+              "filter": "/anime/zoro/most-favorite"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 355
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 345
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "animetsu",
+      "displayName": "Animetsu",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Popular",
+              "filter": "/api/anime/search?query=&page=1&perPage=35&year=any&sort=favourites&season=any&format=any&status=any"
+            },
+            {
+              "title": "Trending",
+              "filter": "/api/anime/search?query=&page=1&perPage=35&year=any&sort=trending&season=any&format=any&status=any"
+            },
+            {
+              "title": "Top Rated",
+              "filter": "/api/anime/search?query=&page=1&perPage=35&year=any&sort=rating&season=any&format=any&status=any"
+            },
+            {
+              "title": "Favourites",
+              "filter": "/api/anime/search?query=&page=1&perPage=35&year=any&sort=updated&season=any&format=any&status=any"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 74
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 24
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "tokyoInsider",
+      "displayName": "TokyoInsider",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Top Anime",
+              "filter": "anime/search?r=5"
+            },
+            {
+              "title": "Popular Anime",
+              "filter": "anime/"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 10,
+        "sample": [
+          {
+            "title": "Zoku Sayonara Zetsubou Sensei",
+            "link": "https://www.tokyoinsider.com/anime/Z/Zoku_Sayonara_Zetsubou_Sensei_(TV)",
+            "image": "https://www.tokyoinsider.com/upload/covers/z/thumbs/default_zoku_sayonara_zetsubou_sensei.jpg"
+          },
+          {
+            "title": "Zan Sayonara Zetsubou Sensei",
+            "link": "https://www.tokyoinsider.com/anime/Z/Zan_Sayonara_Zetsubou_Sensei_(TV)",
+            "image": "https://www.tokyoinsider.com/upload/covers/z/thumbs/default_zan_sayonara_zetsubou_sensei.jpg"
+          }
+        ],
+        "timeMs": 806
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 1,
+        "sample": [
+          {
+            "title": "Marvel Disk Wars: The Avengers",
+            "link": "https://www.tokyoinsider.com/anime/M/Marvel_Disk_Wars:_The_Avengers_(TV)",
+            "image": "https://www.tokyoinsider.com/upload/covers/M/thumbs/default_Marvel_Disk_Wars__The_Avengers_1397030612.jpg"
+          }
+        ],
+        "timeMs": 317
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Zoku Sayonara Zetsubou Sensei",
+          "type": "series",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "More crazy antics abound as Nozomu Itoshiki, a.k.a Zetsubo-sensei, who is the worlds most negative p...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "Zoku Sayonara Zetsubou Sensei",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 16
+            }
+          ]
+        },
+        "timeMs": 880
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 1,
+        "sample": [
+          {
+            "server": "Zoku Sayonara Zetsubou Sensei - 13.avi",
+            "link": "https://media.tokyoinsider.com:8080/dl/00000000030/8472/1/UyIgufHrG3pOzvJbmp3GDQ",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 2836
+      }
+    },
+    {
+      "provider": "kissKh",
+      "displayName": "KissKh",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": "/api/DramaList/List?type=0&sub=0&country=0&status=0&order=2"
+            },
+            {
+              "title": "Hollywood",
+              "filter": "/api/DramaList/List?type=4&sub=0&country=0&status=0&order=2"
+            },
+            {
+              "title": "Anime",
+              "filter": "/api/DramaList/List?type=3&sub=0&country=0&status=0&order=2"
+            },
+            {
+              "title": "K Drama",
+              "filter": "/api/DramaList/List?type=0&sub=0&country=0&status=0&order=2"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 4,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 164
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 403
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "luxMovies",
+      "displayName": "RogMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "New",
+              "filter": ""
+            },
+            {
+              "title": "Netflix",
+              "filter": "web-series/netflix"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "web-series/amazon-prime-video"
+            },
+            {
+              "title": "4K Movies",
+              "filter": "movies-by-quality/2160p"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Action",
+              "filter": "category/movies-by-genres/action/"
+            },
+            {
+              "title": "Adventure",
+              "filter": "category/movies-by-genres/adventure/"
+            },
+            {
+              "title": "Animation",
+              "filter": "category/movies-by-genres/animation/"
+            },
+            {
+              "title": "Biography",
+              "filter": "category/movies-by-genres/biography/"
+            },
+            {
+              "title": "Comedy",
+              "filter": "category/movies-by-genres/comedy/"
+            },
+            {
+              "title": "Crime",
+              "filter": "category/movies-by-genres/crime/"
+            },
+            {
+              "title": "Documentary",
+              "filter": "category/movies-by-genres/documentary/"
+            },
+            {
+              "title": "Drama",
+              "filter": "category/movies-by-genres/drama/"
+            },
+            {
+              "title": "Family",
+              "filter": "category/movies-by-genres/family/"
+            },
+            {
+              "title": "Fantasy",
+              "filter": "category/movies-by-genres/fantasy/"
+            },
+            {
+              "title": "History",
+              "filter": "category/movies-by-genres/history/"
+            },
+            {
+              "title": "Horror",
+              "filter": "category/movies-by-genres/horror/"
+            },
+            {
+              "title": "Music",
+              "filter": "category/movies-by-genres/music/"
+            },
+            {
+              "title": "Mystery",
+              "filter": "category/movies-by-genres/mystery/"
+            },
+            {
+              "title": "Romance",
+              "filter": "category/movies-by-genres/romance/"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "category/movies-by-genres/sci-fi/"
+            },
+            {
+              "title": "Sport",
+              "filter": "category/movies-by-genres/sport/"
+            },
+            {
+              "title": "Thriller",
+              "filter": "category/movies-by-genres/thriller/"
+            },
+            {
+              "title": "War",
+              "filter": "category/movies-by-genres/war/"
+            },
+            {
+              "title": "Western",
+              "filter": "category/movies-by-genres/western/"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 20
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 1295
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 1676
+      },
+      "getMeta": {
+        "status": "SKIP",
+        "reason": "No post link to test with"
+      },
+      "getEpisodes": null,
+      "getStream": null
+    },
+    {
+      "provider": "topmovies",
+      "displayName": "TopMovies",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Latest",
+              "filter": ""
+            },
+            {
+              "title": "Netflix",
+              "filter": "/web-series/tv-shows-by-network/netflix"
+            },
+            {
+              "title": "Hotstar",
+              "filter": "/web-series/tv-shows-by-network/hotstar"
+            },
+            {
+              "title": "Amazon Prime",
+              "filter": "/web-series/tv-shows-by-network/amazon-prime-video"
+            }
+          ],
+          "genres": [
+            {
+              "title": "Apple TV+",
+              "filter": "/ott/apple-tv"
+            },
+            {
+              "title": "Disney+",
+              "filter": "/ott/disney-plus"
+            },
+            {
+              "title": "Hulu",
+              "filter": "/ott/hulu"
+            },
+            {
+              "title": "Crunchyroll",
+              "filter": "/ott/crunchyroll"
+            },
+            {
+              "title": "Action",
+              "filter": "/movies-by-genre/action/"
+            },
+            {
+              "title": "Adventure",
+              "filter": "/movies-by-genre/adventure/"
+            },
+            {
+              "title": "Animation",
+              "filter": "/movies-by-genre/animated/"
+            },
+            {
+              "title": "Comedy",
+              "filter": "/movies-by-genre/comedy/"
+            },
+            {
+              "title": "Crime",
+              "filter": "/movies-by-genre/crime/"
+            },
+            {
+              "title": "Documentary",
+              "filter": "/movies-by-genre/documentary/"
+            },
+            {
+              "title": "Fantasy",
+              "filter": "/movies-by-genre/fantasy/"
+            },
+            {
+              "title": "Horror",
+              "filter": "/movies-by-genre/horror/"
+            },
+            {
+              "title": "Mystery",
+              "filter": "/movies-by-genre/mystery/"
+            },
+            {
+              "title": "Romance",
+              "filter": "/movies-by-genre/romance/"
+            },
+            {
+              "title": "Thriller",
+              "filter": "/movies-by-genre/thriller/"
+            },
+            {
+              "title": "Sci-Fi",
+              "filter": "/movies-by-genre/sci-fi/"
+            }
+          ]
+        },
+        "catalogCount": 4,
+        "genresCount": 16
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 20,
+        "sample": [
+          {
+            "title": "Aspirants (2026) (Season 3) Hindi {Amazon Prime (TVF-Series)} WEB-DL || 480p [200MB]  || 720p [400MB]  || 1080p [1GB]",
+            "link": "https://moviesleech.link/download-aspirants-2026-season-3-hindi-amazon-prime-tvf-series-web-dl/",
+            "image": "https://moviesleech.link/wp-content/uploads/2026/03/Screenshot_65.png"
+          },
+          {
+            "title": "Sardar (2022) Dual Audio (Hindi-Tamil) {4K} Movie WEB-DL || 480p [600MB] || 720p [1.6GB] || 1080p [3.6GB]",
+            "link": "https://moviesleech.link/download-sardar-2022-dual-audio-hindi-tamil-4k-movie-web-dl/",
+            "image": "https://moviesleech.link/wp-content/uploads/2026/03/Screenshot_62.png"
+          }
+        ],
+        "timeMs": 3957
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 1139
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Aspirants",
+          "type": "series",
+          "imdbId": "tt14392248",
+          "image": "[present]",
+          "synopsis": "Aspirants is a story of 3 friends - Abhilash, SK, and Guri. The story takes place in the past and th...",
+          "linkListCount": 3,
+          "linkListSample": [
+            {
+              "title": "Aspirants (2026) (Season 3) Hindi 480p [200MB]",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            },
+            {
+              "title": "Aspirants (2026) (Season 3) Hindi 720p [400MB]",
+              "hasEpisodesLink": true,
+              "hasDirectLinks": false,
+              "directLinksCount": 0
+            }
+          ]
+        },
+        "timeMs": 285
+      },
+      "getEpisodes": {
+        "status": "PASS",
+        "count": 5,
+        "sample": [
+          {
+            "title": "Episode 1",
+            "link": "https://tech.unblockedgames.world/?sid=a3Y4azk3STZ5RVphb1c0d0pkeDllcFVtMytKTEtVc"
+          },
+          {
+            "title": "Episode 2",
+            "link": "https://tech.unblockedgames.world/?sid=a3Y4azk3STZ5RVphb1c0d0pkeDllcFVtMytKTEtVc"
+          },
+          {
+            "title": "Episode 3",
+            "link": "https://tech.unblockedgames.world/?sid=a3Y4azk3STZ5RVphb1c0d0pkeDllcFVtMytKTEtVc"
+          }
+        ],
+        "timeMs": 5406
+      },
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 3241
+      }
+    },
+    {
+      "provider": "guardahd",
+      "displayName": "GuardaHD",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Popular Movies",
+              "filter": "/top/catalog/movie/top.json"
+            },
+            {
+              "title": "Featured Movies",
+              "filter": "/imdbRating/catalog/movie/imdbRating.json"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 49,
+        "sample": [
+          {
+            "title": "War Machine",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt15940132.json",
+            "image": "https://images.metahub.space/poster/small/tt15940132/img"
+          },
+          {
+            "title": "Zootopia 2",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt26443597.json",
+            "image": "https://images.metahub.space/poster/small/tt26443597/img"
+          }
+        ],
+        "timeMs": 35
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 15,
+        "sample": [
+          {
+            "title": "Avengers: Doomsday",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt21357150.json",
+            "image": "https://m.media-amazon.com/images/M/MV5BM2E1ZTJiZTgtZGI2Zi00MzAxLThhZjktMmU3M2E3Yzk3NjUxXkEyXkFqcGc@._V1_SX250.jpg"
+          },
+          {
+            "title": "Avengers: Endgame",
+            "link": "https://v3-cinemeta.strem.io/meta/movie/tt4154796.json",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX250.jpg"
+          }
+        ],
+        "timeMs": 43
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "War Machine",
+          "type": "movie",
+          "imdbId": "tt15940132",
+          "image": "[present]",
+          "synopsis": "Follow the final recruits of a grueling special ops boot camp who encounter a deadly force from beyo...",
+          "linkListCount": 1,
+          "linkListSample": [
+            {
+              "title": "War Machine",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 20
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 0,
+        "sample": [],
+        "timeMs": 1515
+      }
+    },
+    {
+      "provider": "Joya9tv",
+      "displayName": "Joya9tv",
+      "catalog": {
+        "status": "PASS",
+        "data": {
+          "catalog": [
+            {
+              "title": "Hollywood-Movies",
+              "filter": "genre/hollywood-movies/"
+            },
+            {
+              "title": "Bangali-Movies",
+              "filter": "genre/bengali-movies/"
+            }
+          ],
+          "genres": []
+        },
+        "catalogCount": 2,
+        "genresCount": 0
+      },
+      "getPosts": {
+        "status": "PASS",
+        "count": 30,
+        "sample": [
+          {
+            "title": "Total Recall (2012) Dual Audio [Hindi ORG-English] BluRay H264 AAC 1080p 720p 480p ESub",
+            "link": "https://joya9tv1.com/movies/total-recall-2012-dual-audio-hindi-org-english-bluray-h264-aac-1080p-720p-480p-esub/",
+            "image": "https://joya9tv1.com/wp-content/uploads/2026/03/Total-Recall-2012-Dual-Audio-Hindi-ORG-English-BluRay-H264-185x278.jpg"
+          },
+          {
+            "title": "Wyatt Earp’s Revenge (2012) Dual Audio [Hindi ORG-English] BluRay H264 AAC 1080p 720p 480p ESub",
+            "link": "https://joya9tv1.com/movies/wyatt-earps-revenge-2012-dual-audio-hindi-org-english-bluray-h264-aac-1080p-720p-480p-esub/",
+            "image": "https://joya9tv1.com/wp-content/uploads/2026/03/m1CQPm1tzzlxRj1nhOfUJ34Mkx-185x278.jpg"
+          }
+        ],
+        "timeMs": 1101
+      },
+      "getSearchPosts": {
+        "status": "PASS",
+        "count": 4,
+        "sample": [
+          {
+            "title": "The Avengers (2012) Dual Audio Hindi ORG BluRay x264 AAC 1080p 720p 480p ESub",
+            "link": "https://joya9tv1.com/movies/the-avengers-2012-dual-audio-hindi-org-bluray-x264-aac-1080p-720p-480p-esub/",
+            "image": "https://joya9tv1.com/wp-content/uploads/2024/02/RYMX2wcKCBAr24UyPD7xwmjaTn-150x150.jpg"
+          },
+          {
+            "title": "Avengers Infinity War (2018) Dual Audio Hindi ORG BluRay x264 AAC 1080p 720p 480p ESub",
+            "link": "https://joya9tv1.com/movies/avengers-infinity-war-2018-dual-audio-hindi-org-bluray-x264-aac-1080p-720p-480p-esub/",
+            "image": "https://joya9tv1.com/wp-content/uploads/2024/02/7WsyChQLEftFiDOVTGkv3hFpyyt-150x150.jpg"
+          }
+        ],
+        "timeMs": 664
+      },
+      "getMeta": {
+        "status": "PASS",
+        "data": {
+          "title": "Total Recall (2012) Dual Audio [Hindi ORG-English] BluRay H264 AAC 1080p 720p 480p ESub",
+          "type": "movie",
+          "imdbId": "",
+          "image": "[present]",
+          "synopsis": "Factory worker Doug Quaid takes a virtual mind-trip vacation with the Rekall company, opting for imp...",
+          "linkListCount": 3,
+          "linkListSample": [
+            {
+              "title": "Total Recall (2012) Dual Audio [Hindi ORG-English] BluRay H264 AAC 1080p 720p 480p ESub - SD 480p (465MB)",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            },
+            {
+              "title": "Total Recall (2012) Dual Audio [Hindi ORG-English] BluRay H264 AAC 1080p 720p 480p ESub - HD 720p (1.2GB)",
+              "hasEpisodesLink": false,
+              "hasDirectLinks": true,
+              "directLinksCount": 1
+            }
+          ]
+        },
+        "timeMs": 336
+      },
+      "getEpisodes": null,
+      "getStream": {
+        "status": "PASS",
+        "count": 2,
+        "sample": [
+          {
+            "server": "Pixeldrain",
+            "link": "https://pixeldrain.dev/api/file/nmV6cvoW?download",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          },
+          {
+            "server": "hubcloud",
+            "link": "https://video-downloads.googleusercontent.com/ADGPM2kXY8oBEa4twkb-LJ_B57M_LmkRiH",
+            "type": "mkv",
+            "hasSubtitles": false,
+            "hasHeaders": false
+          }
+        ],
+        "timeMs": 12311
+      }
+    }
+  ],
+  "timestamp": "2026-03-18T08:56:50.872Z"
+}

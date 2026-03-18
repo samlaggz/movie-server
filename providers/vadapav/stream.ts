@@ -13,7 +13,7 @@ export const getStream = async function ({
     stream.push({
       server: "vadapav",
       link: url,
-      type: url?.split(".").pop() || "mkv",
+      type: (url?.split(".").pop() === "mp4" ? "mp4" : url?.split(".").pop() === "m3u8" ? "m3u8" : "mkv") as import("../types").StreamType,
     });
     // Validate all stream links before returning
     const validStreams = await validateStreams(stream, {

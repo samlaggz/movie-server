@@ -472,7 +472,7 @@ export const regionalProviders: Record<string, RegionConfig> = {
     code: "US",
     primaryLanguage: "en",
     secondaryLanguages: ["es"],
-    fallbackRegion: null,
+    fallbackRegion: undefined,
     providers: globalEnglishProviders
   },
 

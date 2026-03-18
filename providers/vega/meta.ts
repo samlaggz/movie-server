@@ -59,10 +59,11 @@ export const getMeta = async ({
     if (!imdbId) {
       const heading = infoContainer?.find("h3");
       imdbId =
-        //@ts-ignore
+        // @ts-ignore
         heading
           ?.next("p")
           ?.find("a")?.[0]
+          // @ts-ignore
           ?.attribs?.href?.match(/tt\d+/g)?.[0] ||
         infoContainer.text().match(/tt\d+/g)?.[0] ||
         "";
@@ -70,7 +71,7 @@ export const getMeta = async ({
     // console.log(imdbId)
 
     // type
-    let type = "movie";
+    let type: import("../types").ContentType = "movie";
 
     const heading = infoContainer?.find("h3");
     if (heading?.next("p")?.text()?.includes("Series Name")) {
@@ -214,7 +215,7 @@ export const getMeta = async ({
       synopsis: "",
       image: "",
       imdbId: "",
-      type: "",
+      type: "movie" as import("../types").ContentType,
       linkList: [],
     };
   }

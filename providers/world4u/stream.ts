@@ -140,7 +140,7 @@ export const getStream = async function ({
       console.log("photolinxData2", photolinxData2);
       const dwUrl = photolinxData2?.download_url;
       if (dwUrl) {
-        const streamLinks = [
+        const streamLinks: Stream[] = [
           {
             server: "Photolinx",
             link: dwUrl,

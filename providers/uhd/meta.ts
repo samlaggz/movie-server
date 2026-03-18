@@ -104,7 +104,7 @@ export const getMeta = async function ({
       image,
       imdbId: "",
       synopsis: title,
-      type: "",
+      type: "movie",
       linkList: episodes,
     };
   } catch (error) {
@@ -115,7 +115,7 @@ export const getMeta = async function ({
       imdbId: "",
       synopsis: "",
       linkList: [],
-      type: "uhd",
+      type: "movie",
     };
   }
 };

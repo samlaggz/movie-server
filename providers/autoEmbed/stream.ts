@@ -89,7 +89,7 @@ export async function getWebstreamerStream(
       Streams.push({
         server: name,
         link: url,
-        type,
+        type: (type === "m3u8" || type === "mp4" || type === "mkv") ? type : "mkv" as import("../types").StreamType,
         quality,
       });
     });

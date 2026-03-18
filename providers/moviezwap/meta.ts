@@ -32,7 +32,7 @@ export const getMeta = async function ({
     // 3. Info table
     let synopsis = "";
     let imdbId = "";
-    let type = "movie";
+    let type: import("../types").ContentType = "movie";
     let infoRows: string[] = [];
     $("td:contains('Movie Information')")
       .parent()

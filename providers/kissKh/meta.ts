@@ -17,7 +17,7 @@ export const getMeta = async function ({
       image: data.thumbnail,
       tags: [data?.releaseDate?.split("-")[0], data?.status, data?.type],
       imdbId: "",
-      type: data.episodesCount > 1 ? "series" : "movie",
+      type: (data.episodesCount > 1 ? "series" : "movie") as import("../types").ContentType,
     };
 
     const linkList: Link[] = [];

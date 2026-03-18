@@ -7,6 +7,15 @@ export interface Content {
   [key: string]: any;
 }
 
+// Strict content type enum
+export type ContentType = "movie" | "series";
+
+// Strict stream format enum
+export type StreamType = "mp4" | "mkv" | "m3u8";
+
+// Strict quality enum
+export type StreamQuality = "360" | "480" | "720" | "1080" | "2160";
+
 // getPosts
 export interface Post {
   title: string;
@@ -26,10 +35,10 @@ export type TextTracks = {
 export interface Stream {
   server: string;
   link: string;
-  type: string;
-  quality?: "360" | "480" | "720" | "1080" | "2160";
+  type: StreamType;
+  quality?: StreamQuality;
   subtitles?: TextTracks;
-  headers?: any;
+  headers?: Record<string, string>;
 }
 
 // getInfo
@@ -38,7 +47,7 @@ export interface Info {
   image: string;
   synopsis: string;
   imdbId: string;
-  type: string;
+  type: ContentType;
   tags?: string[];
   cast?: string[];
   rating?: string;
@@ -57,7 +66,7 @@ export interface Link {
   directLinks?: {
     title: string;
     link: string;
-    type?: "movie" | "series";
+    type?: ContentType;
   }[];
 }
 

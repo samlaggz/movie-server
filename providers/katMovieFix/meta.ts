@@ -45,7 +45,7 @@ export const getMeta = async function ({
       let image = infoContainer.find("img").first().attr("src") || "";
       if (image.startsWith("//")) image = "https:" + image;
 
-      const type = /Season \d+/i.test(infoContainer.text())
+      const type: import("../types").ContentType = /Season \d+/i.test(infoContainer.text())
         ? "series"
         : "movie";
       const linkList: Link[] = [];
@@ -79,7 +79,7 @@ export const getMeta = async function ({
         });
       }
 
-      return { title, synopsis, image, imdbId, type, linkList };
+      return { title, synopsis, image, imdbId, type, linkList } as import("../types").Info;
     })
     .catch((err) => {
       console.error("getMeta error:", err);

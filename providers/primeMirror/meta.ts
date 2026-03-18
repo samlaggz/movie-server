@@ -25,7 +25,7 @@ export const getMeta = async function ({
       cast: data?.short_cast?.split(","),
       tags: [data?.year, data?.hdsd, ...data?.thismovieis?.split(",")],
       imdbId: "",
-      type: "series",
+      type: "series" as import("../types").ContentType,
     };
     console.log("nfinfo", meta);
 
@@ -56,7 +56,7 @@ export const getMeta = async function ({
       synopsis: "",
       image: "",
       imdbId: "",
-      type: "",
+      type: "movie",
       linkList: [],
     };
   }

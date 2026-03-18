@@ -25,7 +25,7 @@ export const getMeta = async function ({
         .trim(),
       image: $(".a_img").attr("src") || "",
       imdbId: "",
-      type: "series",
+      type: "series" as import("../types").ContentType,
     };
     const episodesList: { title: string; link: string }[] = [];
     $(".episode").map((i, element) => {

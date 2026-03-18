@@ -76,7 +76,7 @@ export const getMeta = async function ({
       imdbId: "",
       synopsis: "",
       linkList: [],
-      type: "uhd",
+      type: "movie",
     };
   }
 };

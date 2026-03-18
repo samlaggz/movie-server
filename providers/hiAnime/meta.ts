@@ -22,7 +22,7 @@ export const getMeta = async function ({
         data?.subOrDub === "both" ? "Sub And Dub" : data?.subOrDub,
       ],
       imdbId: "",
-      type: data.episodes.length > 0 ? "series" : "movie",
+      type: (data.episodes.length > 0 ? "series" : "movie") as import("../types").ContentType,
     };
     const linkList: Link[] = [];
     const subLinks: Link["directLinks"] = [];

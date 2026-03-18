@@ -32,7 +32,7 @@ export const getMeta = async function ({
         Boolean
       ),
       imdbId: "",
-      type: data.format === "MOVIE" ? "movie" : "series",
+      type: (data.format === "MOVIE" ? "movie" : "series") as import("../types").ContentType,
     };
 
     const linkList: Link[] = [];
